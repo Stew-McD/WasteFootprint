@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+ExchangeEditor():
+* For every activity found by WasteSearch(), this function will add the relevant exchange from the db_waste. This function takes the longest time to run (~10 min for me).
+
 Created on Thu Nov 17 15:30:24 2022
 
 @author: stew

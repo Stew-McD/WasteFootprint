@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-WasteSearch : loads a pickle file and searches it, produces a csv for each query
+WasteSearch() loads '<db name>_exploded.pickle', runs the search query, and produces a .csv to store the results (and a log entry). 
+The query is a dictionary that holds the variables NAME, CODE, and the search terms keywords_AND keywords_OR and keywords_NOT. 
+The format of the query dictionary is in main.py. Edit the query with query.update[{ '<parameter>' : '<value>'}]
+The function will iterate over UNIT = 'kilogram' and UNIT = 'cubic meter'.
 
 Created on Wed Nov 16 15:09:03 2022
 
 @author: SC-McD
-based on the code of L.L #what is your git name?
+based on the work of LL
 """
 
 #%%% Define waste search function

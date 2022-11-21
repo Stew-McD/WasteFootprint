@@ -77,7 +77,7 @@ for name in names:
 dbWriteExcel()          # make xlsx from WasteSearch results in bw2 db format
 dbExcel2BW()            # import db_waste to brightway project "WasteDemand"
 ExchangeEditor()        # add waste flows to activities in "ei38cutoff"
-AddMethods()  # add LCIA methods to "db_waste"
+AddMethods()            # add LCIA methods to "db_waste"
 
 duration = (datetime.now() - start)
 print("\n*** Finished running WasteDemand!!\nDuration: " + str(duration).split(".")[0])

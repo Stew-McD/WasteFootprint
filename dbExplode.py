@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-DBexplode returns a list of all exchanges in given BW2 database (in binary)
+dbExplode returns a single level list of all exchanges in a given Brightway2 database
 
-GIVE PROJECT AND DB NAMES AS STRINGS OR LEAVE BLANK AND CHOOSE INTERACTIVELY
+uses wurst to open up the ecoinvent database, explode to a list of all exchanges, and save in a DataFrame as a .pickle binary file.
+The default is that the database is called "cutoff38" in the project "default".  
+This function will copy 'default' to a new project called 'WasteDemand'. If 'WasteDemand'  exists, it will be deleted and re-made each time. 
+
+GIVE PROJECT AND DB NAMES AS STRINGS OR LEAVE BLANK TO USE DEFAULTS
 (default is to copy "default" to project "WasteDemand", EI is "cutoff38")
 
 Created on Wed Nov 16 11:31:38 2022 
 @author: SC-McD
+based on the work of LL
 """
 
 def dbExplode(project_base='default', project_waste='WasteDemand', db="cutoff38"):
@@ -20,7 +25,7 @@ def dbExplode(project_base='default', project_waste='WasteDemand', db="cutoff38"
     
 # Introduction and project/db choice (if not given in function call)
     
-    print("** dbExplode uses wurst to open a bw2 data base, \nexplodes the exchanges for each process, \nthen returns a pickle file with a list of all activities **")
+    print("** dbExplode uses wurst to open a bw2 data base, \nexplodes the exchanges for each process, \nthen returns a pickle file with a DataFrame list of all activities **")
     print("\n * Using packages: ", 
           "\n\t bw2io" , bi.__version__, 
           "\n\t bw2data" ,bd.__version__,

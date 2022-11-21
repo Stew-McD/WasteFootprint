@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Add LCIA methods based on the custom waste database created by WasteSearch and 
-dbMakeCustom
+AddMethods() : Takes each entry in the custom biosphere database 'waste_db' and creates a new method from it. Eg., ('Waste Footprint', 'Total Waste Demand', waste_hazardous_cubicmeter)
 
 Created on Sat Nov 19 12:21:04 2022
 
 @author: SC-McD
+based of the work of LL
 """
 
 

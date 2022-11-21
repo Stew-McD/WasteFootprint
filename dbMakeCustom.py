@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Make an xlsx database file from WasteSearch() csv files, import to BW2
+There are two functions here:
+
+* dbWriteExcel() : makes an xlsx file in the format of a Brightway2 database. For each .csv in the folder 'WasteSearchResults' a database entry will be added
+
+* dbExcel2BW(): Takes the custom database produced by dbWriteExcel() and imports it into Brightway2. Defaults: project = 'WasteDemand', db = 'db_waste'  
 
 Created on Sat Nov 19 10:11:02 2022
 @author: SC-McD
@@ -95,7 +99,7 @@ def dbExcel2BW(project="WasteDemand", db="db_waste", xl_filename="WasteSearchDat
     db.apply_strategies()
     db.statistics()
     db.write_database()
-    db.waste = bd.Database("db_custom_waste")
+    db.waste = bd.Database("db_waste")
     print(db.metadata)
         
     print("\nGreat success!")
