@@ -3,11 +3,3 @@ RE: Liz's original code
     # there was a typo for radioactive in the original waste search function, probably won't affect your results for the battery LCA though
     # some TWD files have 'm3' not 'cubic meter' (eg. TWDliquid.xlsx). I don't know if this makes a difference
     
-
-RE: New code:
-	* The way that the functions take the variables for 'db', 'project', 'db_waste' is not ideal. 
-	  It would be better to have it defined once at the beginning and have the subsequent functions use these variables
-    
- 	* The "keywords_NOT" in the WasteSearch query is currently just a long string that is not in any processes 
- 	  (leaving it as an empty string or list will lead to getting no results, since "" is in everything). 
- 	  I should change this somehow, it works but it looks bad

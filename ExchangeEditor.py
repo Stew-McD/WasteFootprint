@@ -2,13 +2,14 @@
 # -*- coding: utf-8 -*-
 """
 ExchangeEditor():
-* For every activity found by WasteSearch(), this function will add the relevant exchange from the db_waste. This function takes the longest time to run (~10 min for me).
+For every activity found by WasteSearch(), this function will add the relevant exchange from the db_waste. 
+This function takes the longest time to run (~10 min for me).
 
 Created on Thu Nov 17 15:30:24 2022
 
 @author: stew
 """
-def ExchangeEditor(project="WasteDemand", db="cutoff38", db_waste="db_waste"):
+def ExchangeEditor(project_waste, db, db_waste):
 
     import os
     import pandas as pd
@@ -20,7 +21,7 @@ def ExchangeEditor(project="WasteDemand", db="cutoff38", db_waste="db_waste"):
     search_results_path = os.path.join(os.getcwd(), "WasteSearchResults")
     
     
-    bd.projects.set_current(project)
+    bd.projects.set_current(project_waste)
     db = bd.Database(db)
     db_waste = bd.Database(db_waste)
     
@@ -52,7 +53,7 @@ def ExchangeEditor(project="WasteDemand", db="cutoff38", db_waste="db_waste"):
             waste_ex = db_waste.get(NAME)
             before = len(process.exchanges())
             
-        # check for existing entry (not sure if this is working correctly, it is finding duplicates in freshly installed databases..?)
+        # check for existing entry (need to add a location factor to the "if" statement, since codes are not unique)
             # ex_list = []
             # for x in list(process.exchanges()):
             #     inp = x.as_dict()["input"]
@@ -69,7 +70,7 @@ def ExchangeEditor(project="WasteDemand", db="cutoff38", db_waste="db_waste"):
             if (after-before) == 1:
                 count += 1
                 progress_exc = '(' + str(count) + "/" + str(df.shape[0]) +')'
-                print(progress_db, NAME, progress_exc , '-->', location, name, code)
+                print(progress_db, NAME, progress_exc , '-->', code, location, name)
         
         # log file entry
             end = datetime.now()

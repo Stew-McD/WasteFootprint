@@ -18,8 +18,7 @@ def dbWriteExcel(db_waste="db_waste"):
     from openpyxl import Workbook
     
     search_results_path = os.path.join(os.getcwd(), "WasteSearchResults")
-    #db_waste = input("Name your custom waste database: ")
-    
+   
     xl_filename = os.path.join(search_results_path, "WasteSearchDatabase.xlsx")
     
     if os.path.isfile(xl_filename): os.remove(xl_filename)
@@ -61,18 +60,13 @@ def dbWriteExcel(db_waste="db_waste"):
     xl.save(xl_filename)
     print("Added", count, "entries to an xlsx for the custom waste db:", db_waste)
     
-    # mk_db = input("Do you want to create a Brightway database from this file? (y/n) ")
-    # if mk_db != "y":
-    #     print("okay")
-    #     return
-    # else: 
-    #     dbExcel2BW()
+    return xl_filename
+    
 
 #%% dbExcel2BW
 
-def dbExcel2BW(project="WasteDemand", db="db_waste", xl_filename="WasteSearchDatabase.xlsx"):
-# Imports custom database produced by WasteSearch() and dbWriteExcel
-    
+def dbExcel2BW(project_waste, db_waste, xl_filename):
+    print("Importing to brightway2 project {} the custom database  {} produced by WasteSearch() and dbWriteExcel".format(project_waste, db_waste))
     import os
     import bw2data as bd
     import bw2io as bi
@@ -80,26 +74,14 @@ def dbExcel2BW(project="WasteDemand", db="db_waste", xl_filename="WasteSearchDat
     search_results_path = os.path.join(os.getcwd(), "WasteSearchResults") 
     xl_path = os.path.join(search_results_path, xl_filename)
     
-    # while project not in bd.projects:
-    #     print("\n* Available projects: \n\t" , [p.name for p in bd.projects])
-    #     project = input("\n* Enter name of project to use: ")
-    
-    bd.projects.set_current(project)
-    # print("Current dbs in", project, ":", bd.databases.list)
-    
-    # print("\n* Add", db, "to project", project,"? (y/n) ")
-    # mk_db = input()
-    # if mk_db != "y":
-    #     print("\n\n okay then, bye")
-    #     return
-    # else: 
-        
+    bd.projects.set_current(project_waste)
+ 
     print("\nRunning BW2io ExcelImporter...\n")
     db = bi.ExcelImporter(xl_path)
     db.apply_strategies()
     db.statistics()
     db.write_database()
-    db.waste = bd.Database("db_waste")
+    db.waste = bd.Database(db_waste)
     print(db.metadata)
         
     print("\nGreat success!")

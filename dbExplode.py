@@ -15,9 +15,8 @@ Created on Wed Nov 16 11:31:38 2022
 based on the work of LL
 """
 
-def dbExplode(project_base='default', project_waste='WasteDemand', db="cutoff38"):
+def dbExplode(project_base, project_waste, db):
     
-    import bw2io as bi
     import bw2data as bd
     import wurst as w
     import pandas as pd
@@ -27,36 +26,22 @@ def dbExplode(project_base='default', project_waste='WasteDemand', db="cutoff38"
     
     print("** dbExplode uses wurst to open a bw2 data base, \nexplodes the exchanges for each process, \nthen returns a pickle file with a DataFrame list of all activities **")
     print("\n * Using packages: ", 
-          "\n\t bw2io" , bi.__version__, 
           "\n\t bw2data" ,bd.__version__,
           "\n\t wurst" , w.__version__)
     
               
-  
     if project_waste in bd.projects:
         bd.projects.delete_project(project_waste, delete_dir=True)
     
+    print("\n**Project {} will be copied to a new project: {}".format(project_base, project_waste))
     bd.projects.set_current(project_base)
     bd.projects.copy_project(project_waste)
     
-    # else:
-    #     print("\n* Available projects: \n\t" , [p.name for p in bd.projects])
-    #     project = input("\n* Enter name of project: ")
-    #     bd.projects.set_current(project)
-        
-    #     new = input("\n* Do you want to copy this to a new project? (y/n):")
-    #     if new == 'y':
-    #         new = input("\n* Enter name of new project: ")
-    #         bd.projects.copy_project(new)
-    
-    # while db not in bd.databases:
-    #     print("\n* Availabile databases in ", bd.projects.current ,":", bd.databases.list)
-    #     db = input("\n* Enter name of database to be processed: ")
-        
+
 # Explode database
     db = bd.Database(db)
     print("\n* db:", db.name, "in project:", bd.projects.current, "will be processed")
-    print("\n*** Opening the sausage... \n")
+    print("\n** Opening the sausage... \n")
     guts = w.extract_brightway2_databases(db.name)
     
     print("\n*** Extracting activities from db...")
@@ -73,11 +58,13 @@ def dbExplode(project_base='default', project_waste='WasteDemand', db="cutoff38"
     print("\n Pickle is:", "%1.0f" %(os.path.getsize(pickle_path)/1024**2), "MB")
     print("\n*** The sausage <"+db.name+"> was exploded and pickled.\n\n Rejoice!")
     
-    # make log file to use in the ExchangeEditor
+        # make log file
     log_entry = (db.name + "," + bd.projects.current) 
     log_file = os.path.join(tmp, 'dbExplode.log')
     with open(log_file, 'a+') as l:
         l.write(str(log_entry))
+        
+    return 
         
         
     

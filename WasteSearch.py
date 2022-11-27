@@ -48,7 +48,8 @@ def WasteSearch(query):
                 
             # csv file for each query
         waste_file_name = NAME.replace(" ", "") + ".csv"
-        waste_file = os.path.join(search_results_path, waste_file_name) 
+        waste_file = os.path.join(search_results_path, waste_file_name)
+
    
             # load exchanges into df from the DBexplode pickle file
         tmp = os.path.join(os.getcwd(),"tmp")
@@ -79,7 +80,7 @@ def WasteSearch(query):
                 and all(x in ex_unit for x in UNIT)
                 and '-' in ex_amount 
                 and ex_amount != '-1.0'
-                and not any(x in ex_name for x in NOT)
+                and NOT == None or not any(x in ex_name for x in NOT)
                 ):
                             
                     # write to csv file
@@ -88,7 +89,7 @@ def WasteSearch(query):
                 print(count, ex_name,":", ex_loc, ":" "%.3g" % float(ex_amount), ex_unit)
                 with open(waste_file, 'a+') as f:
                     f.write(x + '\n')
-                           
+                    
 
                 # writes a log file about the search
             end = datetime.now()
@@ -102,6 +103,7 @@ def WasteSearch(query):
                 " OR=" + str(query["keywords_OR"]) + 
                 " NOT="+str(query["keywords_NOT"]) + 
                 " UNIT=" +str(query['unit']) + 
+                " CODE=" +str(CODE) +
                 " RESULTS="+str(count) + 
                 " SEARCH TIME="+str(search_time)
                 )
