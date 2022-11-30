@@ -1,0 +1,441 @@
+;ex_code;ex_name;ex_loc;ex_amount;ex_unit;db_name;category
+3132;1a148e5277d73feda0bb7a293999f07d;market for coating from waste cathode ray tube display;RoW;-0.0049255848621095;kilogram;cutoff38;non
+3462;1bfda2d364a92bceab67fdd5e4e4ba45;treatment of waste polyurethane, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+3850;1fc560d7ff212f4c5176b042b3bc5ba0;treatment of waste plastic plaster, collection for final disposal;CH;-0.82;kilogram;cutoff38;non
+3851;1fc560d7ff212f4c5176b042b3bc5ba0;treatment of waste plastic plaster, sorting plant;CH;-0.18;kilogram;cutoff38;non
+3976;20e0f23c77e33c78da03e02ecdc31267;treatment of waste polystyrene, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+4050;22103e4913a418513c4b0fa256bdf3d9;treatment of slaughterhouse waste, rendering;RoW;-0.99831679389313;kilogram;cutoff38;non
+6281;35f8c93dd4d5c7da1cc1f542a0c812dc;treatment of waste, electrical and electronic cables, open burning;RoW;-0.9;kilogram;cutoff38;non
+6381;3735848df52fa430113ad35a6b4c6f40;treatment of municipal solid waste, open dump, hyperarid infiltration class (-250mm);GLO;-0.0196344977267085;kilogram;cutoff38;non
+6383;3735848df52fa430113ad35a6b4c6f40;treatment of municipal solid waste, open dump, very wet infiltration class (1000mm);GLO;-0.0319643984297913;kilogram;cutoff38;non
+6784;3cf79ca3543885a98b1f3da3501c5340;treatment of waste emulsion paint on wood, collection for final disposal;RoW;-0.999692065146341;kilogram;cutoff38;non
+6962;3f5425ab2407edf6bb0a0d6a214b091d;treatment of waste paint on metal, collection for final disposal;RoW;-0.826790664695358;kilogram;cutoff38;non
+7009;3f7e8eef5df09dbdb2426a0515c3343f;treatment of waste gypsum plasterboard, collection for final disposal;CH;-0.41;kilogram;cutoff38;non
+7010;3f7e8eef5df09dbdb2426a0515c3343f;treatment of waste gypsum plasterboard, recycling;CH;-0.41;kilogram;cutoff38;non
+7011;3f7e8eef5df09dbdb2426a0515c3343f;treatment of waste gypsum plasterboard, sorting plant;CH;-0.18;kilogram;cutoff38;non
+7086;4073c4886078a0c5f3ffb9796d36143c;market for slaughterhouse waste;GLO;-0.0538461323432408;kilogram;cutoff38;non
+7209;41f4cefcded659382da062f757d9700b;treatment of waste plastic, mixture, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+7327;438c5e851b55ccad7ff60d6221df6fa4;treatment of waste wood, untreated, open dump, hyperarid infiltration class (-250mm);GLO;-0.0219802370389025;kilogram;cutoff38;non
+8107;50002cec36e85ca6bc4ebdc2d91e6d8a;treatment of waste polystyrene, open dump, very wet infiltration class (1000mm);GLO;-0.0095291561611696;kilogram;cutoff38;non
+8449;540b96b014f98697a449ba2dc08ed3a8;treatment of waste emulsion paint on wall, collection for final disposal;RoW;-0.81806411622;kilogram;cutoff38;non
+8450;540b96b014f98697a449ba2dc08ed3a8;treatment of waste emulsion paint on wall, sorting plant;RoW;-0.173518997780001;kilogram;cutoff38;non
+8466;543b59e258fa996a0997436b540b61ed;treatment of waste paint on wall, collection for final disposal;RoW;-0.818064116321274;kilogram;cutoff38;non
+8467;543b59e258fa996a0997436b540b61ed;treatment of waste paint on wall, sorting plant;RoW;-0.173518998119048;kilogram;cutoff38;non
+8916;5818b9ad4c504660ebd8416dc222bf68;treatment of drilling waste, landfarming;RoW;-0.6;kilogram;cutoff38;non
+9057;5a234131eced8e8dcd9be95afa9187d8;treatment of waste polypropylene, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+9059;5a234131eced8e8dcd9be95afa9187d8;treatment of waste polypropylene, open dump, very wet infiltration class (1000mm);GLO;-0.0581108636290239;kilogram;cutoff38;non
+9443;5edd37e0d2a74a1de58316c1284db8af;waste packaging glass, unsorted, Recycled Content cut-off;GLO;-0.21;kilogram;cutoff38;non
+9911;6491827976b1b1cd686ee321444ddd5c;treatment of waste paperboard, open dump, hyperarid infiltration class (-250mm);GLO;-0.0183630644692003;kilogram;cutoff38;non
+9913;6491827976b1b1cd686ee321444ddd5c;treatment of waste paperboard, open dump, very wet infiltration class (1000mm);GLO;-0.0306443440211472;kilogram;cutoff38;non
+10207;6921b9ac3e0c35288326c9a81aaceb1b;treatment of waste graphical paper, open dump, hyperarid infiltration class (-250mm);GLO;-0.0183630644692003;kilogram;cutoff38;non
+10483;6b72b028734f410c47c64e2de47af694;treatment of waste plastic, mixture, open dump, very wet infiltration class (1000mm);GLO;-0.0095291561611696;kilogram;cutoff38;non
+11301;7497f823bc05208bec6753b7f46745b8;treatment of waste graphical paper, open dump, very wet infiltration class (1000mm);GLO;-0.0095291561611696;kilogram;cutoff38;non
+12165;7d2928a8580835e5d9a1d57f32927503;treatment of waste polystyrene, open dump, moist infiltration class (300mm);GLO;-0.0832381279944318;kilogram;cutoff38;non
+12639;8157306a8c9cad524acce050550767c7;fibre and fabric waste, polyester, Recycled Content cut-off;GLO;-0.035;kilogram;cutoff38;non
+12924;84c67ea83b4ffd096f57d002bb48b879;treatment of waste mineral plaster, collection for final disposal;CH;-0.5;kilogram;cutoff38;non
+12925;84c67ea83b4ffd096f57d002bb48b879;treatment of waste mineral plaster, sorting plant;CH;-0.5;kilogram;cutoff38;non
+12946;851f2a956633761633f002ed207c56c2;treatment of waste wood, untreated, open dump, very wet infiltration class (1000mm);GLO;-0.0095291561611696;kilogram;cutoff38;non
+13776;8dd2e20d0e16384c051637817ef928d4;treatment of waste glass, open dump, hyperarid infiltration class (-250mm);GLO;-0.0208443807352204;kilogram;cutoff38;non
+13778;8dd2e20d0e16384c051637817ef928d4;treatment of waste glass, open dump, very wet infiltration class (1000mm);GLO;-0.0391565077900618;kilogram;cutoff38;non
+14720;99d6869c1d0764792ab471f0c450a7b0;treatment of waste glass pane in burnable frame, collection for final disposal;RoW;-0.82;kilogram;cutoff38;non
+14721;99d6869c1d0764792ab471f0c450a7b0;treatment of waste glass pane in burnable frame, sorting plant;RoW;-0.18;kilogram;cutoff38;non
+14745;9a7e3421aeba6ee3500a0f9ddcd77f41;treatment of waste polyurethane, open dump, moist infiltration class (300mm);GLO;-0.150753841071451;kilogram;cutoff38;non
+14851;9c9c8106f202981331af60a54478f688;treatment of municipal solid waste, open dump, moist infiltration class (300mm);GLO;-0.72813;kilogram;cutoff38;non
+14885;9d7b55d4bc01b405f06100a0f0a7687f;treatment of waste polyurethane seal, collection for final disposal;RoW;-0.819357309661106;kilogram;cutoff38;non
+14886;9d7b55d4bc01b405f06100a0f0a7687f;treatment of waste polyurethane seal, sorting plant;RoW;-0.177750583813871;kilogram;cutoff38;non
+14949;9e2322b1e96c52896258e5cbe22ff219;treatment of waste polyethylene, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+15019;9eaaaeb558f1a168fab93bbc5698196d;treatment of waste polyethylene terephthalate, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+15021;9eaaaeb558f1a168fab93bbc5698196d;treatment of waste polyethylene terephthalate, open dump, very wet infiltration class (1000mm);GLO;-0.0581108636290239;kilogram;cutoff38;non
+15116;a0189ddf652065107e1c2ab4cd09fbc9;market for waste cement-fibre slab;RoW;-33.0;kilogram;cutoff38;non
+15294;a1bf3c7e192ad615c3da949d66c6cc6d;treatment of waste polyethylene, open dump, very wet infiltration class (1000mm);GLO;-0.0095291561611696;kilogram;cutoff38;non
+15713;a3f865404a0b2e247d01790ffada1c18;treatment of waste plastic, mixture, open dump, wet infiltration class (500mm);GLO;-0.13641396154832;kilogram;cutoff38;non
+15764;a4baea9365a13ba573c85b068e2306d1;market for waste frit from cathode ray tube production;GLO;-0.00028193;kilogram;cutoff38;non
+16072;a76480885162320b9fe4317ce563b6eb;treatment of waste cement in concrete and mortar, collection for final disposal;CH;-0.500000000000096;kilogram;cutoff38;non
+16073;a76480885162320b9fe4317ce563b6eb;treatment of waste cement in concrete and mortar, sorting plant;CH;-0.499999999999904;kilogram;cutoff38;non
+17021;b0028cd5c4654bf75189bbd2e9c74daf;treatment of waste concrete gravel, collection for final disposal;CH;-0.41;kilogram;cutoff38;non
+17022;b0028cd5c4654bf75189bbd2e9c74daf;treatment of waste concrete gravel, recycling;CH;-0.41;kilogram;cutoff38;non
+17023;b0028cd5c4654bf75189bbd2e9c74daf;treatment of waste concrete gravel, sorting plant;CH;-0.18;kilogram;cutoff38;non
+17401;b2e7e8fc124a9ec03a83d9518457b650;market for waste electric wiring;RoW;-1.01;kilogram;cutoff38;non
+17751;b7367119d85e3490189f82edec13c9de;waste polyethylene, for recycling, sorted, Recycled Content cut-off;GLO;-0.0009312977099236;kilogram;cutoff38;non
+17798;b801b275712c1cbc9b2c6abc649287f9;treatment of waste plastic, consumer electronics, dismantling, sorting and cleaning, formal sector;IN;7.31916393336128e-05;kilogram;cutoff38;non
+18415;bea8793b4684314999f3e43349ca710e;treatment of waste brick, collection for final disposal;CH;-0.23;kilogram;cutoff38;non
+18416;bea8793b4684314999f3e43349ca710e;treatment of waste brick, recycling;CH;-0.53;kilogram;cutoff38;non
+18417;bea8793b4684314999f3e43349ca710e;treatment of waste brick, sorting plant;CH;-0.24;kilogram;cutoff38;non
+18457;bfa01fd139ee8800b6a8242d8b3537fa;treatment of waste polyethylene, open dump, wet infiltration class (500mm);GLO;-0.13641396154832;kilogram;cutoff38;non
+18688;c0c4558183a5de0f7a392da248d04682;treatment of waste cement-fibre slab, collection for final disposal;RoW;-0.5;kilogram;cutoff38;non
+18689;c0c4558183a5de0f7a392da248d04682;treatment of waste cement-fibre slab, recycling;RoW;-0.5;kilogram;cutoff38;non
+18699;c0e3e2ea20f7e6bd3f285d1162653898;treatment of waste, pneumatic tyres, open burning;RoW;-0.888061428571429;kilogram;cutoff38;non
+18896;c3380b07fd84be1a58a7747f4118d597;market for basic oxygen furnace waste;GLO;-0.000193;kilogram;cutoff38;non
+19050;c452014813c3f9432fc9e09ea1724dd6;market for waste mineral plaster;RoW;-50.0;kilogram;cutoff38;non
+19327;c72325b52325adb2ea52c860ea7a92cf;market for waste x-ray film;GLO;-0.072596154;kilogram;cutoff38;non
+19328;c72325b52325adb2ea52c860ea7a92cf;market for waste emulsion paint, separated;GLO;-0.000641026;kilogram;cutoff38;non
+19358;c787e70477849b3402d74c8dabac4d9b;treatment of biowaste, open dump;RoW;-0.182250191679007;kilogram;cutoff38;non
+19658;cbf9abbff1c3649505375703cfef368a;treatment of waste plastic, consumer electronics, open burning;GLO;-7.64073257112798e-09;kilogram;cutoff38;non
+19819;cd4064f8b084395fdbe6b9572fe9b3a4;market for waste paint on wood;CH;-680.0;kilogram;cutoff38;non
+19960;cf6ee674ffa5bdedda31e53eb0838914;treatment of waste paperboard, open dump, moist infiltration class (300mm);GLO;-0.0832381279944318;kilogram;cutoff38;non
+20130;d1f33bd1263c3dfd60d3ce000b66901a;treatment of waste paint on metal, sorting plant;CH;-0.564;kilogram;cutoff38;non
+20226;d2bcbb7af1847d8df4864f88991b0c84;treatment of waste glass sheet, collection for final disposal;CH;-0.596774193548387;kilogram;cutoff38;non
+20227;d2bcbb7af1847d8df4864f88991b0c84;treatment of waste glass sheet, sorting plant;CH;-0.403225806451613;kilogram;cutoff38;non
+20416;d4dfa41f45639a4280871702bfa2bf71;treatment of waste polypropylene, open dump, moist infiltration class (300mm);GLO;-0.728129948003917;kilogram;cutoff38;non
+20511;d66a3d135fa04bc0acb7aed5d80e4c93;treatment of waste glass, open dump, moist infiltration class (300mm);GLO;-0.286272170127387;kilogram;cutoff38;non
+20543;d734c78b728e4e325aaa00f8f1588969;market for decarbonising waste;RoW;-0.0008828571428571;kilogram;cutoff38;non
+20700;d8f7b7bcdbe88e87e952aa30af6bf0fa;market for waste foundry sand;GLO;-476103.9083;kilogram;cutoff38;non
+20753;d94387deb3d5b4248d61f7891a32b70c;treatment of waste plastic, mixture, open dump, dry infiltration class (100mm);GLO;-0.289881443371072;kilogram;cutoff38;non
+20779;d9bc77e5d372b74728c92540a0ae822e;market for waste glass pane in burnable frame;RoW;-4.57171719698393e-07;kilogram;cutoff38;non
+20823;da8c2adb3b60c3e656f7d4459e41e62d;treatment of waste glass, open dump, dry infiltration class (100mm);GLO;-0.230392332129037;kilogram;cutoff38;non
+20897;db474b8e48e26eb3d9f405caab55331a;treatment of waste polyurethane, open dump, very wet infiltration class (1000mm);GLO;-0.0095291561611696;kilogram;cutoff38;non
+20934;db885b12e11ddeeecc0f2e1c778fbe12;market for waste packaging paper;RoW;2.1465559925909102e-09;kilogram;cutoff38;non
+20950;dbcd8890e8acd57dd3f98a277b109663;market for waste concrete gravel;RoW;-0.0453460717334337;kilogram;cutoff38;non
+20961;dbdb9f2391e83ecc7d2fcd5eafbb5d3a;treatment of waste polystyrene, open dump, wet infiltration class (500mm);GLO;-0.200310827741168;kilogram;cutoff38;non
+21193;de7932c711e38da449ef6730267a3fa0;treatment of waste polyethylene terephthalate, open dump, moist infiltration class (300mm);GLO;-0.0832381279944318;kilogram;cutoff38;non
+21363;e11b858bb8737a8b3d2466cca8c29eff;market for waste wire plastic;RoW;-1377.0;kilogram;cutoff38;non
+21410;e179d855e1737b411582f49beb87bef2;treatment of waste polyethylene terephthalate, open dump, wet infiltration class (500mm);GLO;-0.505163942939495;kilogram;cutoff38;non
+21417;e193949fa40c7a8c6544f453904259e6;treatment of waste graphical paper, open dump, wet infiltration class (500mm);GLO;-0.13641396154832;kilogram;cutoff38;non
+21524;e33995571acbc5522b69151fcb611618;market for waste, from silicon wafer production;GLO;-0.17;kilogram;cutoff38;non
+21916;e4cb0b6c680d016867810fd22a813a36;treatment of waste plastic, mixture, open dump, moist infiltration class (300mm);GLO;-0.728129948003917;kilogram;cutoff38;non
+21921;e506722fb4dee5d38c12d191a5a5bc73;market for waste bamboo residues;GLO;-0.0697;kilogram;cutoff38;non
+21951;e55b7cfe92e0c77b5898aefe29af146f;market for waste zeolite;RoW;-0.0020803;kilogram;cutoff38;non
+22033;e5e9a5d623c0c6b5011fb590fd0edac8;treatment of waste graphical paper, open dump, dry infiltration class (100mm);GLO;-0.0634703715706075;kilogram;cutoff38;non
+22053;e634bf61340c0d9dec408c3a9b2c1827;treatment of waste glass, open dump, wet infiltration class (500mm);GLO;-0.13641396154832;kilogram;cutoff38;non
+22107;e7480386d3acab7a8f81bc6b7fa230e2;treatment of municipal solid waste, open dump, dry infiltration class (100mm);GLO;-0.357519;kilogram;cutoff38;non
+22348;ea2ca712443025d87fe072710ffc2eb7;market for waste sealing sheet, polyvinylchloride;CH;-1.49;kilogram;cutoff38;non
+22370;eaafff7b9fea9e0650455b2c0e2fab08;treatment of municipal solid waste, open burning;GLO;-0.0634286;kilogram;cutoff38;non
+22371;eaafff7b9fea9e0650455b2c0e2fab08;treatment of municipal solid waste, open dump, wet infiltration class (500mm);GLO;-0.269518;kilogram;cutoff38;non
+22408;eb8756ed9a13b879f98e1ce88f6788ee;market for waste bitumen;CH;-1080.0;kilogram;cutoff38;non
+22454;ec38ca4dc5eeedafa233b355976a915c;treatment of waste polyurethane, open dump, dry infiltration class (100mm);GLO;-0.230392332129037;kilogram;cutoff38;non
+22459;ec3d4f965735feef3339cc98f1d978cb;market for waste plastic, consumer electronics;RoW;-0.023248770422382;kilogram;cutoff38;non
+22462;ec5f2d8e2ed7868ed429b76ba29c8709;treatment of waste paperboard, open dump, dry infiltration class (100mm);GLO;-0.624023574577714;kilogram;cutoff38;non
+22502;ecec4910075105c49329050c152ce425;market for drilling waste;RoW;-466.0;kilogram;cutoff38;non
+22511;ed1a8c9b524364d39bd4a49aa1cd5c08;treatment of waste polystyrene, open burning;GLO;-0.0860011568767784;kilogram;cutoff38;non
+22512;ed1a8c9b524364d39bd4a49aa1cd5c08;treatment of waste polystyrene, open dump, dry infiltration class (100mm);GLO;-0.304972657817088;kilogram;cutoff38;non
+22560;ee271fa52f7512b1009814c79624a8cb;treatment of waste glass, open burning;GLO;-0.0143533996706812;kilogram;cutoff38;non
+22571;ee3ad29dc9c1edfa03bd6007a1404a7c;treatment of waste polyethylene, open dump, dry infiltration class (100mm);GLO;-0.02611582974533;kilogram;cutoff38;non
+22646;ef6162fb297a132e7d1845bad1f8c0f7;treatment of waste graphical paper, open dump, moist infiltration class (300mm);GLO;-0.728129948003917;kilogram;cutoff38;non
+22710;ef95b050b30d97bc68488625ec75d051;market for waste expanded polystyrene;RoW;-0.392;kilogram;cutoff38;non
+22791;f069b08767317154398b75a54833cc57;market for waste sealing sheet, polyethylene;CH;-0.0146;kilogram;cutoff38;non
+22818;f0924e43f2f713e419803d14d35a5231;market for waste polyvinylchloride product;RoW;-1.4402889763676;kilogram;cutoff38;non
+22877;f13a312c47fcd8026ae512ce17b4cbe4;treatment of waste graphical paper, open burning;GLO;-0.0104397907139771;kilogram;cutoff38;non
+22932;f1f1fac609cfa0bffae87842de157bd2;treatment of waste polyethylene, open burning;GLO;-0.0871242405735605;kilogram;cutoff38;non
+22933;f1f1fac609cfa0bffae87842de157bd2;treatment of waste polyethylene, open dump, moist infiltration class (300mm);GLO;-0.286272170127387;kilogram;cutoff38;non
+22947;f216ec437255b320122187735487e2ce;treatment of waste reinforcement steel, collection for final disposal;RoW;-0.410028139373259;kilogram;cutoff38;non
+22948;f216ec437255b320122187735487e2ce;treatment of waste reinforcement steel, recycling;RoW;-0.409900963080068;kilogram;cutoff38;non
+22949;f216ec437255b320122187735487e2ce;treatment of waste reinforcement steel, sorting plant;RoW;-0.180070897546673;kilogram;cutoff38;non
+22962;f240e57ad10ca2016817ed4903f44f4e;treatment of waste mineral wool, collection for final disposal;Europe without Switzerland;-0.298387096774194;kilogram;cutoff38;non
+22963;f240e57ad10ca2016817ed4903f44f4e;treatment of waste mineral wool, recycling;Europe without Switzerland;-0.403225806451613;kilogram;cutoff38;non
+22964;f240e57ad10ca2016817ed4903f44f4e;treatment of waste mineral wool, sorting plant;Europe without Switzerland;-0.298387096774194;kilogram;cutoff38;non
+22965;f24160987565ed477e99128fe5acb2a6;treatment of waste concrete, not reinforced, collection for final disposal;CH;-0.1;kilogram;cutoff38;non
+22966;f24160987565ed477e99128fe5acb2a6;treatment of waste concrete, not reinforced, recycling;CH;-0.62;kilogram;cutoff38;non
+22967;f24160987565ed477e99128fe5acb2a6;treatment of waste concrete, not reinforced, sorting plant;CH;-0.28;kilogram;cutoff38;non
+23170;f5c57d777bff5ef49bc43ce9fdb66a72;waste packaging paper, Recycled Content cut-off;GLO;-0.0005195989968014;kilogram;cutoff38;non
+23269;f70666fd3525d42ae645122a444d4c21;market for waste paperboard;RoW;-5.36182255203696e-06;kilogram;cutoff38;non
+23300;f70666fd3525d42ae645122a444d4c21;market group for waste polyethylene terephthalate;RER;-3.77183480861194e-08;kilogram;cutoff38;non
+23301;f70666fd3525d42ae645122a444d4c21;market for waste polyethylene terephthalate;RoW;-3.04666620031912e-07;kilogram;cutoff38;non
+23313;f7236903a71ad59d253c6bfb621476f0;treatment of waste paperboard, open dump, wet infiltration class (500mm);GLO;-0.0094739291825948;kilogram;cutoff38;non
+23325;f75af3df53863ba9816b9d7158f3a09b;treatment of waste polypropylene, open dump, dry infiltration class (100mm);GLO;-0.304972657817088;kilogram;cutoff38;non
+23406;f8144d2f463e50891762acfd8e86b4a0;treatment of waste polyethylene terephthalate, open dump, dry infiltration class (100mm);GLO;-0.624023574577714;kilogram;cutoff38;non
+23444;f84f5b9bb55ec4f03547ba7c40a7057a;market for waste reinforcement steel;RoW;-6886513.31301548;kilogram;cutoff38;non
+23471;f8dc78789f06300408fcf49f5095bf8f;market for waste bitumen sheet;CH;-0.00723;kilogram;cutoff38;non
+23482;f961e3f6bf157b0bd63aefb85ec23b8d;treatment of waste reinforced concrete, collection for final disposal;CH;-0.1;kilogram;cutoff38;non
+23483;f961e3f6bf157b0bd63aefb85ec23b8d;treatment of waste reinforced concrete, recycling;CH;-0.62;kilogram;cutoff38;non
+23484;f961e3f6bf157b0bd63aefb85ec23b8d;treatment of waste reinforced concrete, sorting plant;CH;-0.28;kilogram;cutoff38;non
+23500;f99c8a1b666bfdab6fef8778d41f7bff;waste wood, post-consumer, Recycled Content cut-off;GLO;-525.82386;kilogram;cutoff38;non
+23524;f9d9e1fe071af805ff86ec66d4f5f0c9;market for waste fibreboard;CH;-17.4;kilogram;cutoff38;non
+23553;fa1f92ecb20ef98678a679ead2b77d40;market for waste polyvinylfluoride;RoW;-10.6419374148979;kilogram;cutoff38;non
+23571;fa57f8b846f35131a9fc53b34f7bfa15;treatment of waste plaster-cardboard sandwich, collection for final disposal;CH;-0.41;kilogram;cutoff38;non
+23572;fa57f8b846f35131a9fc53b34f7bfa15;treatment of waste plaster-cardboard sandwich, recycling;CH;-0.41;kilogram;cutoff38;non
+23573;fa57f8b846f35131a9fc53b34f7bfa15;treatment of waste plaster-cardboard sandwich, sorting plant;CH;-0.18;kilogram;cutoff38;non
+23575;fa5dd14ff0306082e6954dc6f7de782a;treatment of waste polyethylene terephthalate, open burning;GLO;-0.0005657731498034;kilogram;cutoff38;non
+23599;fb035893d851ec0b26f57c6809f7f2c8;treatment of waste reinforced plasterboard, collection for final disposal;CH;-0.41;kilogram;cutoff38;non
+23600;fb035893d851ec0b26f57c6809f7f2c8;treatment of waste reinforced plasterboard, recycling;CH;-0.41;kilogram;cutoff38;non
+23601;fb035893d851ec0b26f57c6809f7f2c8;treatment of waste reinforced plasterboard, sorting plant;CH;-0.18;kilogram;cutoff38;non
+23607;fb36cc0f0ee71aa96428e8a08d24810e;treatment of waste wood, untreated, open dump, wet infiltration class (500mm);GLO;-0.0840657818025282;kilogram;cutoff38;non
+23610;fb406ef00fdec66bf772afea885d8c02;treatment of waste wood, untreated, open dump, moist infiltration class (300mm);GLO;-0.150753841071451;kilogram;cutoff38;non
+23616;fb518da578268aeb95c7e44acd02900c;market for waste yarn and waste textile;GLO;-0.1746;kilogram;cutoff38;non
+23655;fbd7a4bb2d48c1f410ebf5066274045f;market for waste polyurethane foam;RoW;-0.358119097295781;kilogram;cutoff38;non
+23674;fbe27e08ab2ab5ea27e70ffdf0ef9edb;treatment of waste wood, untreated, open dump, dry infiltration class (100mm);GLO;-0.0634703715706075;kilogram;cutoff38;non
+23678;fbf03310304689a5a7ebe1cc523b3822;treatment of waste wood, untreated, open burning;GLO;-0.0150317896138671;kilogram;cutoff38;non
+23685;fbf51ee94d6b4481482b61d6913c4f59;waste paper, unsorted, Recycled Content cut-off;GLO;-8.14220172611306e-05;kilogram;cutoff38;non
+23705;fc16ba2ef3ce449a224f07f25d933c14;market for waste paint on metal;RoW;-0.564;kilogram;cutoff38;non
+23736;fc36f3ea781eab94ff8393999bff9a72;waste polyethylene, for recycling, unsorted, Recycled Content cut-off;GLO;-0.08;kilogram;cutoff38;non
+23741;fc4d4696ba4fe577e0f5c2065ce10899;market for waste paint;RoW;-0.0004398728207434;kilogram;cutoff38;non
+23742;fc4d4696ba4fe577e0f5c2065ce10899;waste paperboard, sorted, Recycled Content cut-off;GLO;-0.100688766063141;kilogram;cutoff38;non
+23759;fc7e35ea4b306371c64ca1291cf414f1;market for waste asphalt;RoW;-0.027;kilogram;cutoff38;non
+23773;fcc8209ad8b353a24aa902815951a4a1;market for waste wood pole, chrome preserved;RoW;-7.03294092579212e-05;kilogram;cutoff38;non
+23777;fcca61d848787604861b65614c99d28b;market for waste building wood, chrome preserved;CH;-11.0;kilogram;cutoff38;non
+23778;fcca61d848787604861b65614c99d28b;market for waste brick;CH;-45.1;kilogram;cutoff38;non
+23781;fcca61d848787604861b65614c99d28b;market for waste cement in concrete and mortar;CH;-38.5;kilogram;cutoff38;non
+23797;fd09715495f4bb08963c5e0f9ddffbaa;market group for waste polystyrene;RER;-0.0001;kilogram;cutoff38;non
+23799;fd3ca21534409626c374886e5bec2b40;market for waste glass sheet;RoW;-0.0103214476998798;kilogram;cutoff38;non
+23837;fd60f6bab9f81a740200ccec1fe04f16;treatment of waste plastic, mixture, open burning;GLO;-0.0122605420657861;kilogram;cutoff38;non
+23840;fd62b4dc832338ce525bf8fa3e67ccb3;market for waste polyethylene/polypropylene product;RoW;-16.0;kilogram;cutoff38;non
+23848;fd6545dde7aa7fa545975e44b0616e7d;market for waste emulsion paint;RoW;-0.01;kilogram;cutoff38;non
+23865;fd7fb64c2e69fcd84f62bd95273e706e;market group for municipal solid waste;RER;-9.77212812447675e-05;kilogram;cutoff38;non
+23876;fd9e7ef97a2711ef1e464e011c84ff13;treatment of waste polypropylene, open burning;GLO;-0.0487658869735807;kilogram;cutoff38;non
+23877;fd9e7ef97a2711ef1e464e011c84ff13;treatment of waste polypropylene, open dump, wet infiltration class (500mm);GLO;-0.200310827741168;kilogram;cutoff38;non
+23886;fdad0bce41632df3bd6d64c5e4faea6e;treatment of waste polyurethane, open burning;GLO;-0.284307580310206;kilogram;cutoff38;non
+23887;fdad0bce41632df3bd6d64c5e4faea6e;treatment of waste polyurethane, open dump, wet infiltration class (500mm);GLO;-0.505163942939495;kilogram;cutoff38;non
+23907;fdc9f9fe65ba7109024beafce9fe4a66;market for waste polyurethane;RoW;-24.9201455420402;kilogram;cutoff38;non
+23922;fdd08e373827dbc54383b0b6b50314ca;market for waste polystyrene isolation, flame-retardant;RoW;-258.882325416409;kilogram;cutoff38;non
+23932;fdd85ce6378670afeabb2323d89bf5d1;market for waste paint on wall;GLO;-5062.5;kilogram;cutoff38;non
+23964;fe4dbff73a0054989c950f1904b92427;market for waste concrete, not reinforced;RoW;-51678.9338941666;kilogram;cutoff38;non
+23974;fe7314a5040974eaaee062d97b404054;market for waste mineral wool;RoW;-289.803359825464;kilogram;cutoff38;non
+23989;fe766d64162324d16f666821d5ffa9d5;market for waste polyvinylchloride;RoW;-0.0029164041330551;kilogram;cutoff38;non
+23990;fe796f5de87d5ebdfac6ebbe39d07f11;market for waste gypsum;CH;-0.0004136754955872;kilogram;cutoff38;non
+23992;fe7e71a5ea6c93aa420c70864fc1cecf;treatment of waste paperboard, open burning;GLO;-0.0041718691285255;kilogram;cutoff38;non
+23999;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, open burning;GLO;-0.0974434868744582;kilogram;cutoff38;non
+24000;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, open dump, dry infiltration class (100mm);GLO;-0.0499944695133922;kilogram;cutoff38;non
+24001;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, open dump, hyperarid infiltration class (-250mm);GLO;-0.0241530148866973;kilogram;cutoff38;non
+24002;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, open dump, moist infiltration class (300mm);GLO;-0.0250926981761765;kilogram;cutoff38;non
+24003;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, open dump, very wet infiltration class (1000mm);GLO;-0.0581108636290239;kilogram;cutoff38;non
+24004;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, open dump, wet infiltration class (500mm);GLO;-0.154202153568209;kilogram;cutoff38;non
+24010;fea37adb713819dd941d9f72a5c1283a;market group for waste paperboard;Europe without Switzerland;-0.0045;kilogram;cutoff38;non
+24012;fea37adb713819dd941d9f72a5c1283a;market for waste textile, soiled;RoW;-0.00075;kilogram;cutoff38;non
+24013;fea37adb713819dd941d9f72a5c1283a;market group for waste graphical paper;Europe without Switzerland;-0.008625;kilogram;cutoff38;non
+24014;fea37adb713819dd941d9f72a5c1283a;market group for waste wood, untreated;Europe without Switzerland;-0.00075;kilogram;cutoff38;non
+24016;fed1eb16de36bcaebb33b30fc3c3b7cb;waste paperboard, unsorted, Recycled Content cut-off;GLO;-2.5;kilogram;cutoff38;non
+24023;fed1eb16de36bcaebb33b30fc3c3b7cb;market for waste polyethylene;RoW;-0.0516177722664626;kilogram;cutoff38;non
+24030;fed1eb16de36bcaebb33b30fc3c3b7cb;market for waste polystyrene;RoW;-0.266691823376724;kilogram;cutoff38;non
+24055;ff1067f8b5b4b0c4b9f0d3a63fb42e5d;market group for waste plastic, mixture;RER;-0.0003702899061463;kilogram;cutoff38;non
+24066;ff49f457b1a67a3c3a53a895a566b1c3;market for waste, from silicon wafer production, inorganic;GLO;-0.27572;kilogram;cutoff38;non
+24070;ff61c60137a26d093cd2aac1a78f8bb5;market for waste mineral wool, for final disposal;RoW;-59.2026127152556;kilogram;cutoff38;non
+24074;ff7749f0dcab6327467f51354e197fb5;market for waste plastic, industrial electronics;CH;-0.00954;kilogram;cutoff38;non
+24075;ff7749f0dcab6327467f51354e197fb5;market group for waste polyvinylchloride;RER;-0.00682;kilogram;cutoff38;non
+24076;ff7749f0dcab6327467f51354e197fb5;market group for waste polyurethane;RER;-0.00847;kilogram;cutoff38;non
+24077;ff7749f0dcab6327467f51354e197fb5;market group for waste glass;RER;-0.00383;kilogram;cutoff38;non
+24078;ff7749f0dcab6327467f51354e197fb5;market group for waste polyethylene;RER;-0.0457;kilogram;cutoff38;non
+24082;ff82fb62b8ea7a76dd160a7f22f3952e;market for biowaste;RoW;-3.35;kilogram;cutoff38;non
+24085;ff9181e3930a3dd9433a7a4e05b7cb02;market for waste glass;BR;-8920.94444415;kilogram;cutoff38;non
+24086;ff9181e3930a3dd9433a7a4e05b7cb02;market for inert waste;RoW;-71048.9176758013;kilogram;cutoff38;non
+24087;ff9181e3930a3dd9433a7a4e05b7cb02;market for waste gypsum plasterboard;GLO;-16574.2577776;kilogram;cutoff38;non
+24088;ff9181e3930a3dd9433a7a4e05b7cb02;market for waste concrete;RoW;-9320745.2017768;kilogram;cutoff38;non
+24089;ff9181e3930a3dd9433a7a4e05b7cb02;market for waste wood, untreated;BR;-17447.38688;kilogram;cutoff38;non
+24090;ff97bfce5a4e9f7d31e13a23d5a837b9;market for waste electric and electronic equipment;GLO;-7.73;kilogram;cutoff38;non
+24091;ff97bfce5a4e9f7d31e13a23d5a837b9;market for waste aluminium;GLO;-117.0;kilogram;cutoff38;non
+24094;ff97bfce5a4e9f7d31e13a23d5a837b9;market for waste bulk iron, excluding reinforcement;RoW;-507.209209188546;kilogram;cutoff38;non
+24097;ff97bfce5a4e9f7d31e13a23d5a837b9;market for waste rubber, unspecified;RoW;-4.73070297849092;kilogram;cutoff38;non
+24108;ffb88b7620a6c7127ce50767cc82d941;market for waste cement, hydrated;CH;-8.71e-07;kilogram;cutoff38;non
+24109;ffb88b7620a6c7127ce50767cc82d941;market for waste plastic, mixture;CH;-3.88e-05;kilogram;cutoff38;non
+24110;ffb88b7620a6c7127ce50767cc82d941;market for waste graphical paper;CH;-3.88e-05;kilogram;cutoff38;non
+24111;ffdb96f40f79dd758d95b94f2064a5b0;market for inert waste, for final disposal;RoW;-0.16;kilogram;cutoff38;non
+24117;ffdc06711bc89fce6985a7cc2270d195;market group for waste polypropylene;RER;-6.03446755239117e-05;kilogram;cutoff38;non
+24118;ffdc06711bc89fce6985a7cc2270d195;market for waste polypropylene;RoW;-0.0004874287783445;kilogram;cutoff38;non
+24119;ffe124c86ce6c7c2116cf168fb76ce30;market for waste reinforced concrete;RoW;-6000000.0;kilogram;cutoff38;non
+24120;ffef3490b4d118ee8e45308eb89343fa;market for waste mineral oil;RoW;-2.45871535560857e-06;kilogram;cutoff38;non
+24121;ffef3490b4d118ee8e45308eb89343fa;market for municipal solid waste;RoW;-2.45871535560857e-06;kilogram;cutoff38;non
+218;162945c1adaa251525c240850e98b078;treatment of wastewater from cathode ray tube production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+223;165de0a86842e49376dab45dad98d6cb;treatment of wastewater from ground granulated blast furnace slag production;RoW;-0.929513888888889;cubic meter;cutoff38;non
+553;36e90a85177ed04f766d4f9a2ad6f327;treatment of wastewater from liquid crystal production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+625;3de9f48490e0be0ce56b1e18e13eea60;market for wastewater from tube collector production;GLO;-0.00312;cubic meter;cutoff38;non
+705;4558ef9aa619738756e7ce99b9b56217;treatment of wastewater from black chrome coating, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+789;501f812d6f9226327651e96b3af751df;treatment of wastewater from medium density fibreboard production, capacity 5E9l/year;RoW;-0.865036674816626;cubic meter;cutoff38;non
+889;59872e4863a021fca8520a3fca88ef77;market for wastewater from wafer fabrication;GLO;-96.509;cubic meter;cutoff38;non
+950;5f7fd63979f7065be5a27a84f7933548;treatment of wastewater from tube collector production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1066;6ad13ecb22eada434c5385659650186e;market for wastewater from liquid crystal display production;GLO;-0.095667;cubic meter;cutoff38;non
+1071;6b5cda50b8776c13283ad959146143fc;treatment of wastewater from wafer fabrication, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1087;6d9d014d4f29f7fbdf6c631c99020ba1;market for wastewater from liquid crystal display backlight production;GLO;-0.09505;cubic meter;cutoff38;non
+1113;6fb2a05f20b8c88f1ee7e3493b35ea0c;market for wastewater from grass refinery;CH;-0.0074893320560829;cubic meter;cutoff38;non
+1453;8d7ab9d7bcd0b896e4db1019b018413c;treatment of wastewater from plywood production, capacity 5E9l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1550;9832c09e6378b402e68ab78694504ac0;treatment of wastewater from PV cell production, capacity 5E9l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1610;9d493b14763001ba368c6e3fae00dfba;market for wastewater from ammonium paratungstate production;CN;-0.024385;cubic meter;cutoff38;non
+1660;a18887af4b8f3878cd40336c54fa45cf;treatment of wastewater from potato starch production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1678;a3678a201fe953dcbd2a1a546e7c3218;treatment of wastewater, average, capacity 1.6E8l/year;CH;-0.168115812601952;cubic meter;cutoff38;non
+1680;a3678a201fe953dcbd2a1a546e7c3218;treatment of wastewater, average, capacity 4.7E10l/year;CH;-0.0732125719359953;cubic meter;cutoff38;non
+1691;a4baea9365a13ba573c85b068e2306d1;market for wastewater from cathode ray tube production;GLO;-0.0049159;cubic meter;cutoff38;non
+1708;a65afd10129ba7e652878ada0a423dee;treatment of wastewater from liquid crystal display backlight production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1751;a9f751397e5c036183f8ffd43a05a7b7;market for wastewater from ground granulated blast furnace slag production;GLO;-0.0003521760678752;cubic meter;cutoff38;non
+1774;ac5c6cecb4330150cc263f8e4bfba29d;treatment of wastewater from hard fibreboard production, capacity 5E9l/year;RoW;-0.705102040816327;cubic meter;cutoff38;non
+1896;ba52a351b10ee65afb1760f68848a754;market for wastewater from ceramic production;CH;-0.000983;cubic meter;cutoff38;non
+1908;bbd4063b2c4504660c580fa2a310ce40;treatment of wastewater, average, capacity 5E9l/year;CH;-0.00152;cubic meter;cutoff38;non
+1917;bcc27ad591d90e4eb3395b51fa932ae7;treatment of wastewater from lorry production, capacity 4.7E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+1919;bcee5dcdc39efebdaf142b7cbbe6f005;market for wastewater from liquid crystal production;GLO;-0.0022062;cubic meter;cutoff38;non
+2001;c49b186da1f23a023ba01ebbe8635984;treatment of wastewater from glass production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+2054;caa316392e51bb5d28d75146517c4f09;treatment of wastewater from liquid crystal display production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+2093;cdc5c9b4f4c6f6f03c2b6baff0897f91;market for wastewater from soft fibreboard production;RoW;-1.7322329014268e-05;cubic meter;cutoff38;non
+2154;d2475b72218699d7b18c4647abe1a68e;treatment of wastewater from maize starch production, capacity 1.1E10l/year;RoW;-0.991583114440325;cubic meter;cutoff38;non
+2171;d324cb037b4a4dd03d4e06dda31e505f;market for wastewater, unpolluted, from residence;RoW;-0.0006899;cubic meter;cutoff38;non
+2174;d337cfaa6f7657e8b22f50ada81729af;market for wastewater from black chrome coating;GLO;-0.00849;cubic meter;cutoff38;non
+2269;dc03211e41028d8aacc8797657e89176;treatment of wastewater from particleboard production, capacity 5E9l/year;RoW;-0.619456366237482;cubic meter;cutoff38;non
+2287;de6c97d26c7fd97f264dd4b65f4c9e54;treatment of wastewater, average, capacity 1E9l/year;RoW;-2.72e-05;cubic meter;cutoff38;non
+2304;e0099b022704ba4166db7a4fe6fdb9af;market for wastewater from plywood production;GLO;-0.0859191763198484;cubic meter;cutoff38;non
+2319;e286c876c934f2afa8c070e1e6dc7bfe;market for wastewater from medium density board production;GLO;-0.404995606671912;cubic meter;cutoff38;non
+2407;efad465e897b88627b7888d717b63af2;market for wastewater from glass production;GLO;-0.00176;cubic meter;cutoff38;non
+2436;f24cfc9d868c5265cb1a700bc0bf4a8e;market for wastewater from textile production;GLO;-0.02;cubic meter;cutoff38;non
+2502;f7d187f8ff556a6a30d8ce3b16091a49;direct disposal of wastewater from textile production;GLO;-0.128;cubic meter;cutoff38;non
+2533;fa881b8be125dec958a0a8f6ed3a76b9;market for wastewater from hard fibreboard production;GLO;-2.22060724294884;cubic meter;cutoff38;non
+2544;fc36f3ea781eab94ff8393999bff9a72;market for wastewater from vegetable oil refinery;GLO;-0.00138;cubic meter;cutoff38;non
+2546;fc4d4696ba4fe577e0f5c2065ce10899;market for wastewater from maize starch production;GLO;-6.21350334219754e-08;cubic meter;cutoff38;non
+2550;fcd600548ddedc4288edafff804b2b96;market for wastewater from potato starch production;GLO;-0.0004878722236112;cubic meter;cutoff38;non
+2551;fcf94b1d0358068033558d8cc83b1392;market for wastewater from particleboard production;GLO;-3.78643305787576e-05;cubic meter;cutoff38;non
+2554;fd5a930593cf53d9872ab71b1b5f5b0e;treatment of wastewater, average, capacity 1.1E10l/year;CH;-3.8e-05;cubic meter;cutoff38;non
+2555;fd675989c9e6333605775cf6ac1af79a;market for wastewater from concrete production;CH;-0.161;cubic meter;cutoff38;non
+2563;fdb85318a81857b1b1f7254471423f36;market for wastewater from pig iron production;CH;-0.036;cubic meter;cutoff38;non
+2566;fe53eb8f73825c0a02f690a65caecbe5;market for wastewater, unpolluted;RoW;-3.3e-06;cubic meter;cutoff38;non
+2574;ff49f457b1a67a3c3a53a895a566b1c3;market for wastewater from PV cell production;GLO;-0.21734;cubic meter;cutoff38;non
+2577;ff846967159815136cd52edc29f34b9a;market for wastewater, from residence;RoW;-0.00010147;cubic meter;cutoff38;non
+2579;ff97bfce5a4e9f7d31e13a23d5a837b9;market for wastewater from lorry production;GLO;-0.442;cubic meter;cutoff38;non
+2584;fff7710f09bc109e251d32058ce54dde;market for wastewater, average;RoW;-4.5531197301855e-08;cubic meter;cutoff38;non
+142;18aa9ce2ddae9c96d6e9973f459f032e;treatment of waste glass, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+203;1ee4814ccb7d55f3b1b34554357806d0;treatment of waste polypropylene, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+315;301ee2cd47087983fc844400632ffeb4;treatment of waste polyethylene terephthalate, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+351;360b07c65bc6ff821d2629bc73710429;treatment of waste polyethylene, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+644;6cc974888252f46ec3d67dde695c2152;process-specific burdens, municipal waste incineration;CH;7.59e-06;kilogram;cutoff38;incineration
+701;792da10b3d13573b1c4ef144f3bd8077;treatment of waste polystyrene, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+711;7a0eb3c4a27c58f5c0005ea918ecb9dc;treatment of waste rubber, unspecified, municipal incineration;RoW;-0.76;kilogram;cutoff38;incineration
+807;86c9559975d80cbdfd21542c186bc1a4;treatment of waste polyvinylchloride, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+857;91a27e9faa7c32ec61edbb0b089afce2;treatment of waste wood, untreated, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+938;a37d19fe93bab8337bb6abd8e6c9dfe6;treatment of waste textile, soiled, municipal incineration;RoW;-0.990717150895866;kilogram;cutoff38;incineration
+972;a9cf9dbbe62f31e35d984918704c7b5c;treatment of municipal solid waste, municipal incineration with fly ash extraction;CH;-0.989999;kilogram;cutoff38;incineration
+1004;af07a7f42c4f4dbae627f9a26509434e;treatment of waste emulsion paint, municipal incineration;Europe without Switzerland;-0.324060693641618;kilogram;cutoff38;incineration
+1032;b45aea6638b6cc7f423af798bf559903;treatment of waste polyurethane, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+1082;bcd63283b0ba1c3bb71519ac5d1249e0;treatment of waste paint, municipal incineration;RoW;-0.189187408168411;kilogram;cutoff38;incineration
+1129;c68d7192c9a20849fff3beed013a0fe8;treatment of waste plastic, mixture, municipal incineration with fly ash extraction;CH;-3.88e-05;kilogram;cutoff38;incineration
+1164;cb16cd992ebb15d748336ff03f7cce0b;treatment of waste paint, municipal incineration with fly ash extraction;CH;-0.05;kilogram;cutoff38;incineration
+1166;cbf9abbff1c3649505375703cfef368a;treatment of waste plastic, consumer electronics, municipal incineration;RoW;-0.999999977077802;kilogram;cutoff38;incineration
+1321;ebf137b0603397e731d9c9327917688f;treatment of waste polystyrene, municipal incineration;RoW;-0.982431807674526;kilogram;cutoff38;incineration
+1323;ec38ca4dc5eeedafa233b355976a915c;treatment of waste polyurethane, municipal incineration;RoW;-0.256386189641601;kilogram;cutoff38;incineration
+1327;ee271fa52f7512b1009814c79624a8cb;treatment of waste glass, municipal incineration;RoW;-0.137212483251452;kilogram;cutoff38;incineration
+1328;ee3ad29dc9c1edfa03bd6007a1404a7c;treatment of waste polyethylene, municipal incineration;RoW;-0.0539407403935113;kilogram;cutoff38;incineration
+1348;f16114f20dfb164f1ef9b0aa9c393633;treatment of biowaste, municipal incineration with fly ash extraction;CH;-0.446727762192701;kilogram;cutoff38;incineration
+1364;f47a4ac918bcaf6e3590c0957b0435f8;treatment of waste polypropylene, municipal incineration;RoW;-0.0042372881355932;kilogram;cutoff38;incineration
+1383;f70666fd3525d42ae645122a444d4c21;treatment of municipal solid waste, incineration;ES;-0.12684954890734;kilogram;cutoff38;incineration
+1387;f7236903a71ad59d253c6bfb621476f0;treatment of waste paperboard, municipal incineration with fly ash extraction;CH;-0.98999922959431;kilogram;cutoff38;incineration
+1401;f8ad839d843a7e8e9c4128867841a6d7;treatment of waste graphical paper, municipal incineration with fly ash extraction;CH;-0.0155;kilogram;cutoff38;incineration
+1408;f9b0738eac0c889b173e121cbdf7d32c;treatment of waste graphical paper, municipal incineration;RoW;-0.0155;kilogram;cutoff38;incineration
+1409;f9d9e1fe071af805ff86ec66d4f5f0c9;treatment of waste emulsion paint, municipal incineration with fly ash extraction;CH;-1.12;kilogram;cutoff38;incineration
+1414;fa5dd14ff0306082e6954dc6f7de782a;treatment of waste polyethylene terephthalate, municipal incineration;RoW;-0.944189931250273;kilogram;cutoff38;incineration
+1419;fb90d32a136e3b68a7d9834121e30823;market for process-specific burdens, municipal waste incineration;RoW;5.9234570857051e-05;kilogram;cutoff38;incineration
+1422;fbf03310304689a5a7ebe1cc523b3822;treatment of waste wood, untreated, municipal incineration;RoW;-0.0042372881355932;kilogram;cutoff38;incineration
+1427;fd60f6bab9f81a740200ccec1fe04f16;treatment of waste plastic, mixture, municipal incineration;RoW;-0.247338467815546;kilogram;cutoff38;incineration
+1430;fe4631d4f242074f1b41bb6c017d6d04;treatment of biowaste, municipal incineration;GLO;-0.0050793434247566;kilogram;cutoff38;incineration
+1432;fe7e71a5ea6c93aa420c70864fc1cecf;treatment of waste paperboard, municipal incineration;RoW;-0.61512182868626;kilogram;cutoff38;incineration
+1433;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, municipal incineration;RoW;-0.107643629912986;kilogram;cutoff38;incineration
+306;3456e7fc0ce6690edd534aad56586a56;treatment of hazardous waste, hazardous waste incineration, with energy recovery;RoW;-0.5;kilogram;cutoff38;hazardous
+342;3f850a95f06cd18306a0fa8b10f5aeff;treatment of spent antifreezer liquid, hazardous waste incineration, with energy recovery;RoW;-0.495791557220162;kilogram;cutoff38;hazardous
+343;3f850a95f06cd18306a0fa8b10f5aeff;treatment of spent antifreezer liquid, hazardous waste incineration;RoW;-0.495791557220162;kilogram;cutoff38;hazardous
+458;58419129ca49265c2bbf18444682cf42;treatment of hazardous waste, hazardous waste incineration;RoW;-0.0001364917561263;kilogram;cutoff38;hazardous
+915;bcd63283b0ba1c3bb71519ac5d1249e0;treatment of waste paint, hazardous waste incineration, with energy recovery;RoW;-0.0409307857286109;kilogram;cutoff38;hazardous
+916;bcd63283b0ba1c3bb71519ac5d1249e0;treatment of waste paint, hazardous waste incineration;RoW;-0.0409307857286109;kilogram;cutoff38;hazardous
+955;c68e272a3ed8f6a9c8a48502298ec56b;treatment of waste emulsion paint, hazardous waste incineration, with energy recovery;CH;-0.0183722212015433;kilogram;cutoff38;hazardous
+956;c68e272a3ed8f6a9c8a48502298ec56b;treatment of waste emulsion paint, hazardous waste incineration;CH;-0.0183722212015433;kilogram;cutoff38;hazardous
+966;c822dc6bb34eb2098a6e4e847e648ee4;treatment of used capacitor, to hazardous waste incineration, with energy recovery;RoW;-0.495791557220162;kilogram;cutoff38;hazardous
+967;c822dc6bb34eb2098a6e4e847e648ee4;treatment of used capacitor, to hazardous waste incineration;RoW;-0.495791557220162;kilogram;cutoff38;hazardous
+1101;e6ee0db2f8970280601fe081882e932a;treatment of refinery sludge, hazardous waste incineration, with energy recovery;CH;-0.5;kilogram;cutoff38;hazardous
+1102;e6ee0db2f8970280601fe081882e932a;treatment of refinery sludge, hazardous waste incineration;CH;-0.5;kilogram;cutoff38;hazardous
+1131;ef3c1e70d617452d89dfbecc859eb56b;treatment of waste mineral oil, hazardous waste incineration, with energy recovery;Europe without Switzerland;-0.397600148816246;kilogram;cutoff38;hazardous
+1153;f31dea514d74ebd48b7fdee4b81c80cd;treatment of spent solvent mixture, hazardous waste incineration, with energy recovery;Europe without Switzerland;-0.382239597488572;kilogram;cutoff38;hazardous
+1154;f31dea514d74ebd48b7fdee4b81c80cd;treatment of spent solvent mixture, hazardous waste incineration;Europe without Switzerland;-0.382239597488572;kilogram;cutoff38;hazardous
+1159;f4859b18b3f1279afa171141d31d8115;treatment of bilge oil, hazardous waste incineration, with energy recovery;RoW;-0.5;kilogram;cutoff38;hazardous
+1160;f4859b18b3f1279afa171141d31d8115;treatment of bilge oil, hazardous waste incineration;RoW;-0.5;kilogram;cutoff38;hazardous
+1190;f88d9ee43ba457c82636b6496b51b616;treatment of fly ash and scrubber sludge, hazardous waste incineration, with energy recovery;Europe without Switzerland;-0.5;kilogram;cutoff38;hazardous
+1191;f88d9ee43ba457c82636b6496b51b616;treatment of fly ash and scrubber sludge, hazardous waste incineration;Europe without Switzerland;-0.5;kilogram;cutoff38;hazardous
+1211;fbf51ee94d6b4481482b61d6913c4f59;treatment of waste mineral oil, hazardous waste incineration;RoW;-5.76783987010117e-05;kilogram;cutoff38;hazardous
+1220;feebb83a48dd01294f7436305ee4ae69;market for hazardous waste, for incineration;RoW;-0.00084;kilogram;cutoff38;hazardous
+64;2558088b18f9cf8789cad106dbddf16c;treatment of low level radioactive waste for final repository;RoW;-0.991583114440322;cubic meter;cutoff38;hazardous
+277;aee86ab018bcde870e81e48589cd0c84;market for high level radioactive waste for final repository;RoW;-0.0023;cubic meter;cutoff38;hazardous
+364;f16ebe0cf00906d23646f15369313fe6;treatment of low level radioactive waste, in interim storage;CH;-0.9;cubic meter;cutoff38;hazardous
+365;f16ebe0cf00906d23646f15369313fe6;treatment of low level radioactive waste, surface or trench deposit;CH;-0.01;cubic meter;cutoff38;hazardous
+366;f16ebe0cf00906d23646f15369313fe6;treatment of low level radioactive waste, plasma torch incineration;CH;-0.09;cubic meter;cutoff38;hazardous
+376;f4f2bed7a59d206e805d87e9f53192f5;Volume occupied, final repository for low-active radioactive waste;None;6.3220113e-08;cubic meter;cutoff38;hazardous
+377;f4f2bed7a59d206e805d87e9f53192f5;Volume occupied, final repository for radioactive waste;None;2.1121809e-09;cubic meter;cutoff38;hazardous
+382;fb506db4f642fe362f38442e7ff34751;market for low level radioactive waste;GLO;-0.00063;cubic meter;cutoff38;hazardous
+383;fbaba90b3050b2b24822fceb64a99904;market for low level radioactive waste for final repository;GLO;-2.85131702147184e-06;cubic meter;cutoff38;hazardous
+49;0d72f458790d75380907a1dd32e4566c;treatment of basic oxygen furnace waste, residual material landfill;RoW;-0.991583114440322;kilogram;cutoff38;dump
+131;1bfda2d364a92bceab67fdd5e4e4ba45;treatment of waste polyurethane, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+153;20e0f23c77e33c78da03e02ecdc31267;treatment of waste polystyrene, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+247;3735848df52fa430113ad35a6b4c6f40;treatment of municipal solid waste, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.0275828515230707;kilogram;cutoff38;dump
+249;3735848df52fa430113ad35a6b4c6f40;treatment of municipal solid waste, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0509696662136194;kilogram;cutoff38;dump
+277;41f4cefcded659382da062f757d9700b;treatment of waste plastic, mixture, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+285;438c5e851b55ccad7ff60d6221df6fa4;treatment of waste wood, untreated, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.033341383114629;kilogram;cutoff38;dump
+332;50002cec36e85ca6bc4ebdc2d91e6d8a;treatment of waste polystyrene, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0718162919968532;kilogram;cutoff38;dump
+363;5818b9ad4c504660ebd8416dc222bf68;treatment of drilling waste, residual material landfill;RoW;-0.4;kilogram;cutoff38;dump
+376;5a234131eced8e8dcd9be95afa9187d8;treatment of waste polypropylene, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+378;5a234131eced8e8dcd9be95afa9187d8;treatment of waste polypropylene, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0792268474637746;kilogram;cutoff38;dump
+438;6491827976b1b1cd686ee321444ddd5c;treatment of waste paperboard, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.0283896623691172;kilogram;cutoff38;dump
+440;6491827976b1b1cd686ee321444ddd5c;treatment of waste paperboard, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0475699648170677;kilogram;cutoff38;dump
+465;6921b9ac3e0c35288326c9a81aaceb1b;treatment of waste graphical paper, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.0283896623691172;kilogram;cutoff38;dump
+479;6b72b028734f410c47c64e2de47af694;treatment of waste plastic, mixture, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0718162919968532;kilogram;cutoff38;dump
+498;6ef1f07efc2ec924c8266c134a61b830;treatment of inert waste, inert material landfill;CH;-0.004995;kilogram;cutoff38;dump
+515;7497f823bc05208bec6753b7f46745b8;treatment of waste graphical paper, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0718162919968532;kilogram;cutoff38;dump
+597;851f2a956633761633f002ed207c56c2;treatment of waste wood, untreated, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0718162919968532;kilogram;cutoff38;dump
+639;8dd2e20d0e16384c051637817ef928d4;treatment of waste glass, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.0337819715299597;kilogram;cutoff38;dump
+641;8dd2e20d0e16384c051637817ef928d4;treatment of waste glass, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0609226871729106;kilogram;cutoff38;dump
+692;9c159faa49bc3cc3789a4f998ea19ca5;treatment of waste plastic plaster, inert material landfill;RoW;-0.82;kilogram;cutoff38;dump
+693;9c159faa49bc3cc3789a4f998ea19ca5;treatment of waste plastic plaster, sanitary landfill;RoW;-0.18;kilogram;cutoff38;dump
+698;9cd55dce6a45000072e91e955a7a9211;treatment of waste frit from cathode ray tube production, residual material landfill;RoW;-0.991583114440322;kilogram;cutoff38;dump
+701;9e2322b1e96c52896258e5cbe22ff219;treatment of waste polyethylene, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+708;9eaaaeb558f1a168fab93bbc5698196d;treatment of waste polyethylene terephthalate, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+710;9eaaaeb558f1a168fab93bbc5698196d;treatment of waste polyethylene terephthalate, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0792268474637746;kilogram;cutoff38;dump
+725;a1bf3c7e192ad615c3da949d66c6cc6d;treatment of waste polyethylene, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0718162919968532;kilogram;cutoff38;dump
+734;a4907dd290dc65c0238c36d000af316f;treatment of waste gypsum, inert material landfill;CH;-0.700000098808261;kilogram;cutoff38;dump
+738;a6b3225d1a732bca175df75c2f6b0b7d;treatment of waste gypsum, sanitary landfill;CH;-0.85;kilogram;cutoff38;dump
+788;af0199131188946560a15f7a248426d3;treatment of waste, from silicon wafer production, underground deposit;RoW;-0.939485376182072;kilogram;cutoff38;dump
+789;af07a7f42c4f4dbae627f9a26509434e;treatment of waste emulsion paint, inert material landfill;Europe without Switzerland;-0.0986271676300578;kilogram;cutoff38;dump
+790;af07a7f42c4f4dbae627f9a26509434e;treatment of waste emulsion paint, sanitary landfill;Europe without Switzerland;-0.394508670520231;kilogram;cutoff38;dump
+837;bcd63283b0ba1c3bb71519ac5d1249e0;treatment of waste paint, inert material landfill;RoW;-0.122273960451881;kilogram;cutoff38;dump
+844;bd7e9bc35a3b8be7a74bb733e7eb0f37;treatment of waste polystyrene, unsanitary landfill, moist infiltration class (300mm);GLO;-0.848434117077867;kilogram;cutoff38;dump
+853;bfa01fd139ee8800b6a8242d8b3537fa;treatment of waste polyethylene, unsanitary landfill, wet infiltration class (500mm);GLO;-0.765380844923606;kilogram;cutoff38;dump
+888;c68d7192c9a20849fff3beed013a0fe8;treatment of waste cement, hydrated, residual material landfill;CH;-8.69e-07;kilogram;cutoff38;dump
+902;c8c8cc9820e2ddb62fa8a61fca966e20;treatment of inert waste, sanitary landfill;RoW;-0.000408267;kilogram;cutoff38;dump
+913;cbf9abbff1c3649505375703cfef368a;treatment of waste plastic, consumer electronics, sanitary landfill, wet infiltration class (500mm);GLO;-7.64073257112798e-09;kilogram;cutoff38;dump
+914;cbf9abbff1c3649505375703cfef368a;treatment of waste plastic, consumer electronics, unsanitary landfill, wet infiltration class (500mm);GLO;-7.64073257112798e-09;kilogram;cutoff38;dump
+931;cef65ea9f4aebac39ed4abc410d1ec74;treatment of waste polyvinylchloride, sanitary landfill;RoW;-0.948089483664233;kilogram;cutoff38;dump
+934;cf6ee674ffa5bdedda31e53eb0838914;treatment of waste paperboard, unsanitary landfill, moist infiltration class (300mm);GLO;-0.0885383511576547;kilogram;cutoff38;dump
+950;d35cec7ce2763b93477a16d65e4939c5;treatment of waste polyurethane, unsanitary landfill, moist infiltration class (300mm);GLO;-0.329636389307973;kilogram;cutoff38;dump
+957;d4dfa41f45639a4280871702bfa2bf71;treatment of waste polypropylene, unsanitary landfill, moist infiltration class (300mm);GLO;-0.081665232033263;kilogram;cutoff38;dump
+982;da3ce00fffdee7ebc036db2e2636393b;treatment of waste paperboard, inert material landfill;RoW;-0.018;kilogram;cutoff38;dump
+987;db474b8e48e26eb3d9f405caab55331a;treatment of waste polyurethane, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0718162919968532;kilogram;cutoff38;dump
+990;dbdb9f2391e83ecc7d2fcd5eafbb5d3a;treatment of waste polystyrene, unsanitary landfill, wet infiltration class (500mm);GLO;-0.750923285285251;kilogram;cutoff38;dump
+992;dd2b3c0494e395be7c7ad011768bbdb4;treatment of waste aluminium, sanitary landfill;RoW;-0.991583114440325;kilogram;cutoff38;dump
+1003;e179d855e1737b411582f49beb87bef2;treatment of waste polyethylene terephthalate, unsanitary landfill, wet infiltration class (500mm);GLO;-0.2105284767503;kilogram;cutoff38;dump
+1004;e193949fa40c7a8c6544f453904259e6;treatment of waste graphical paper, unsanitary landfill, wet infiltration class (500mm);GLO;-0.765380844923606;kilogram;cutoff38;dump
+1005;e1be837bac2a23d91dec4f163e2f8af3;treatment of municipal solid waste, unsanitary landfill, moist infiltration class (300mm);GLO;-0.329636;kilogram;cutoff38;dump
+1016;e4befb1f0bb8e9caf36bb07c112c3e76;treatment of waste yarn and waste textile, unsanitary landfill;RoW;-0.608912291214437;kilogram;cutoff38;dump
+1021;e4cb0b6c680d016867810fd22a813a36;treatment of waste plastic, mixture, unsanitary landfill, moist infiltration class (300mm);GLO;-0.081665232033263;kilogram;cutoff38;dump
+1028;e634bf61340c0d9dec408c3a9b2c1827;treatment of waste glass, unsanitary landfill, wet infiltration class (500mm);GLO;-0.765380844923606;kilogram;cutoff38;dump
+1029;e7480386d3acab7a8f81bc6b7fa230e2;treatment of municipal solid waste, unsanitary landfill, dry infiltration class (100mm);GLO;-0.552711;kilogram;cutoff38;dump
+1030;e76d00bc7a45110eefe41a33d55b804c;treatment of waste plastic, mixture, sanitary landfill;RoW;-0.00617249483625;kilogram;cutoff38;dump
+1035;e8853d1fee9c10bdaba2c87a26ef4d40;treatment of waste graphical paper, unsanitary landfill, dry infiltration class (100mm);GLO;-0.740400990118668;kilogram;cutoff38;dump
+1042;ea2ee7caec0d1773f6111d3b55a7f096;treatment of waste glass, unsanitary landfill, dry infiltration class (100mm);GLO;-0.0305664483660676;kilogram;cutoff38;dump
+1043;eaafff7b9fea9e0650455b2c0e2fab08;treatment of municipal solid waste, unsanitary landfill, wet infiltration class (500mm);GLO;-0.667053;kilogram;cutoff38;dump
+1044;eadccc15545a466b1fa2cca36d400566;treatment of waste polyethylene terephthalate, unsanitary landfill, moist infiltration class (300mm);GLO;-0.329636389307973;kilogram;cutoff38;dump
+1045;eb2b686c66348e8ef34b6cc6d1f22049;treatment of waste polypropylene, sanitary landfill;RoW;-0.0080179887435868;kilogram;cutoff38;dump
+1049;ebf137b0603397e731d9c9327917688f;treatment of waste polystyrene, sanitary landfill;RoW;-0.0173861021883577;kilogram;cutoff38;dump
+1052;ec38ca4dc5eeedafa233b355976a915c;treatment of waste polyurethane, sanitary landfill;RoW;-0.326208124785213;kilogram;cutoff38;dump
+1053;ec38ca4dc5eeedafa233b355976a915c;treatment of waste polyurethane, unsanitary landfill, dry infiltration class (100mm);GLO;-0.146103403360449;kilogram;cutoff38;dump
+1055;ec5f2d8e2ed7868ed429b76ba29c8709;treatment of waste paperboard, unsanitary landfill, dry infiltration class (100mm);GLO;-0.238635704890765;kilogram;cutoff38;dump
+1057;ecb88a6bcbed5709aedaab1264655a45;treatment of waste polyethylene, sanitary landfill;RoW;-57.3;kilogram;cutoff38;dump
+1058;ecb88a6bcbed5709aedaab1264655a45;treatment of waste polyurethane, inert material landfill;RoW;-26.7;kilogram;cutoff38;dump
+1059;ed1a8c9b524364d39bd4a49aa1cd5c08;treatment of waste polystyrene, unsanitary landfill, dry infiltration class (100mm);GLO;-0.609026185306133;kilogram;cutoff38;dump
+1063;ee271fa52f7512b1009814c79624a8cb;treatment of waste glass, unsanitary landfill, moist infiltration class (300mm);GLO;-0.848434117077867;kilogram;cutoff38;dump
+1065;ee3ad29dc9c1edfa03bd6007a1404a7c;treatment of waste polyethylene, unsanitary landfill, dry infiltration class (100mm);GLO;-0.892349587988298;kilogram;cutoff38;dump
+1072;f05b31f2105686dfb27d56fe67fd7a78;treatment of waste paperboard, unsanitary landfill, wet infiltration class (500mm);GLO;-0.750923285285251;kilogram;cutoff38;dump
+1075;f13a312c47fcd8026ae512ce17b4cbe4;treatment of waste graphical paper, sanitary landfill;RoW;-0.48017244092358;kilogram;cutoff38;dump
+1076;f13a312c47fcd8026ae512ce17b4cbe4;treatment of waste graphical paper, unsanitary landfill, moist infiltration class (300mm);GLO;-0.316017602616586;kilogram;cutoff38;dump
+1078;f1f1fac609cfa0bffae87842de157bd2;treatment of waste polyethylene, unsanitary landfill, moist infiltration class (300mm);GLO;-0.626603589299052;kilogram;cutoff38;dump
+1080;f2db46eeb2bb6ae28a7d8c46f1bb7c08;treatment of waste plastic, mixture, unsanitary landfill, wet infiltration class (500mm);GLO;-0.986422907233126;kilogram;cutoff38;dump
+1082;f358f94322704c7cec2e81489c00300d;treatment of waste paint, sanitary landfill;CH;-0.85;kilogram;cutoff38;dump
+1091;f70666fd3525d42ae645122a444d4c21;treatment of waste glass, sanitary landfill;GLO;-5.93875582593207e-06;kilogram;cutoff38;dump
+1094;f75af3df53863ba9816b9d7158f3a09b;treatment of waste polypropylene, unsanitary landfill, dry infiltration class (100mm);GLO;-0.609026185306133;kilogram;cutoff38;dump
+1102;f8144d2f463e50891762acfd8e86b4a0;treatment of waste polyethylene terephthalate, unsanitary landfill, dry infiltration class (100mm);GLO;-0.238635704890765;kilogram;cutoff38;dump
+1104;f84546089494429cddd7a1d3e1520485;treatment of waste, from silicon wafer production, inorganic, residual material landfill;RoW;-0.991583114440322;kilogram;cutoff38;dump
+1109;fa5dd14ff0306082e6954dc6f7de782a;treatment of waste polyethylene terephthalate, sanitary landfill;RoW;-0.0552442955999239;kilogram;cutoff38;dump
+1111;fb36cc0f0ee71aa96428e8a08d24810e;treatment of waste wood, untreated, unsanitary landfill, wet infiltration class (500mm);GLO;-0.881137422307789;kilogram;cutoff38;dump
+1113;fb406ef00fdec66bf772afea885d8c02;treatment of waste wood, untreated, unsanitary landfill, moist infiltration class (300mm);GLO;-0.0444996764128451;kilogram;cutoff38;dump
+1116;fbe27e08ab2ab5ea27e70ffdf0ef9edb;treatment of waste wood, untreated, sanitary landfill;RoW;-0.25231276005258;kilogram;cutoff38;dump
+1118;fbf03310304689a5a7ebe1cc523b3822;treatment of waste wood, untreated, unsanitary landfill, dry infiltration class (100mm);GLO;-0.98073092225054;kilogram;cutoff38;dump
+1120;fbf51ee94d6b4481482b61d6913c4f59;treatment of municipal solid waste, sanitary landfill;CA-QC;-0.0031485325515338;kilogram;cutoff38;dump
+1121;fd60f6bab9f81a740200ccec1fe04f16;treatment of waste plastic, mixture, unsanitary landfill, dry infiltration class (100mm);GLO;-0.740400990118668;kilogram;cutoff38;dump
+1122;fd9e7ef97a2711ef1e464e011c84ff13;treatment of waste polypropylene, unsanitary landfill, wet infiltration class (500mm);GLO;-0.750923285285251;kilogram;cutoff38;dump
+1123;fdad0bce41632df3bd6d64c5e4faea6e;treatment of waste polyurethane, unsanitary landfill, wet infiltration class (500mm);GLO;-0.2105284767503;kilogram;cutoff38;dump
+1125;fe7e71a5ea6c93aa420c70864fc1cecf;treatment of waste paperboard, sanitary landfill;RoW;-0.380706302185215;kilogram;cutoff38;dump
+1126;fe92527d182a690bee2caf225e8f5827;market for hazardous waste, for underground deposit;RER;-0.0085233751275188;kilogram;cutoff38;dump
+1127;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, unsanitary landfill, dry infiltration class (100mm);GLO;-0.0717986390931305;kilogram;cutoff38;dump
+1128;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, unsanitary landfill, hyperarid infiltration class (-250mm);GLO;-0.035073452155838;kilogram;cutoff38;dump
+1129;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, unsanitary landfill, moist infiltration class (300mm);GLO;-0.0623369227600257;kilogram;cutoff38;dump
+1130;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, unsanitary landfill, very wet infiltration class (1000mm);GLO;-0.0792268474637746;kilogram;cutoff38;dump
+1131;fea2d26de5ccbae6df6f1c76a6e9d5ec;treatment of waste polyvinylchloride, unsanitary landfill, wet infiltration class (500mm);GLO;-0.234923821966288;kilogram;cutoff38;dump
+1;f16114f20dfb164f1ef9b0aa9c393633;treatment of biowaste by anaerobic digestion;CH;-0.194081026310004;kilogram;cutoff38;digestion
+1;d475161633515814a64bb4656a681c4b;treatment of wastewater from anaerobic digestion of whey, capacity 1E9l/year;RoW;-0.991583114440325;cubic meter;cutoff38;digestion
+1;0f317ac3a712fe00c0ef90897888226e;treatment of garden biowaste, home composting in heaps;RoW;-0.97700001314285;kilogram;cutoff38;compost
+3;3810866a0c1e9fbd284c8780cf2546d1;treatment of kitchen and garden biowaste, home composting in heaps and containers;RoW;-0.976998341625207;kilogram;cutoff38;compost
+7;f16114f20dfb164f1ef9b0aa9c393633;treatment of biowaste, industrial composting;CH;-0.359191211497295;kilogram;cutoff38;compost
