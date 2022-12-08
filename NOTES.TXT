@@ -1,5 +1,0 @@
-
-RE: Liz's original code
-    # there was a typo for radioactive in the original waste search function, probably won't affect your results for the battery LCA though
-    # some TWD files have 'm3' not 'cubic meter' (eg. TWDliquid.xlsx). I don't know if this makes a difference
-    
