@@ -1,4 +1,4 @@
-y# WasteFootprint
+# WasteFootprint
 ## Contents
 
 #### Central script
@@ -21,7 +21,7 @@ makes an xlsx file in the format of a Brightway2 database. For each .csv in the 
 Takes the custom database produced by dbWriteExcel() and imports it into Brightway2. Defaults: project = 'WasteFootprint', db = 'db_waste'  
 
 5. **ExchangeEditor() in ExchangeEditor.py** :  
-For every activity found by WasteSearch(), this function will add the relevant exchange from the db_waste. This function takes the longest time to run (~10 min for me). 
+For every activity found by WasteSearch(), this function will add the relevant exchange from the db_waste. This function takes the longest time to run (~10 min for each database). 
 
 6. **AddMethods() in AddMethods.py ** :  
 Takes each entry in the custom biosphere database 'waste_db' and creates a new method from it. Eg., ('Waste Footprint', 'Total Waste Footprint', waste_hazardous_cubicmeter)  
