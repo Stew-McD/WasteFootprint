@@ -10,12 +10,9 @@ Created on Thu Nov 17 15:30:24 2022
 @author: stew
 """
 
-# project_waste='WasteDemand_38_cutoff'
+# project_waste='WasteFootprint_38_cutoff'
 # db_name="cutoff38"
 # db_waste_name="db_waste_cutoff38"
-
-
-
 
 def ExchangeEditor(project_waste, db_name, db_waste_name):
 
@@ -24,8 +21,8 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
     import bw2data as bd
     from datetime import datetime
 
-    tmp = os.path.join(os.getcwd(), "tmp", db_name)
-    search_results_path = os.path.join(os.getcwd(), "WasteSearchResults", db_name)
+    tmp = os.path.join(os.getcwd(), "data/tmp")
+    search_results_path = os.path.join(os.getcwd(), "data/WasteSearchResults", db_name)
 
 
     bd.projects.set_current(project_waste)
@@ -37,9 +34,11 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
     for f in os.listdir(search_results_path):
         f_path = os.path.join(search_results_path, f)
         if os.path.isfile(f_path) and f_path.endswith('.csv'):
-            NAME = f.removesuffix(".csv").replace(" ","")
-            df = pd.read_csv(f_path, sep=';', header=None)
-            df.columns = ['process code', 'name', 'location','amount', 'unit',"database"]
+            NAME = f.replace(".csv",'').replace(" ","")
+            df = pd.read_csv(f_path, sep=';', header=0, index_col=0)
+
+            df.reset_index(inplace=True)
+            df = df[["code","name", "location", "ex_name", "ex_amount", "ex_unit", "ex_location"]]
             file_dict.update({ NAME : df})
 
  #%% Appending all processes with waste exchanges with custom biosphere waste exchanges in same amount and unit as technosphere exchange
@@ -49,41 +48,32 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
         start = datetime.now()
         progress_db = str(countNAME) + "/" + str(len(file_dict.items()))
         count = 0
-        skip_count = 0
-        for i in range(0, df.shape[0]):
-            code = df.iloc[i,0] # get data from activity in search results
-            name = df.iloc[i,1]
-            location = df.iloc[i,2]
-            amount = df.iloc[i,3]
-            unit = df.iloc[i,4]
+
+        for r in df.to_dict('records'):
+            code = r["code"] # get data from activity in search results
+            name = r["name"]
+            location = r["location"]
+            ex_name = r["ex_name"]
+            amount = r["ex_amount"]
+            unit = r["ex_unit"]
+            ex_location = r["ex_location"]
             process = db.get(code)
             waste_ex = db_waste.get(NAME)
             before = len(process.exchanges())
 
-        # check for existing entry (need to add a location factor to the "if" statement, since codes are not unique)
-            # ex_list = []
-            # for x in list(process.exchanges()):
-            #     inp = x.as_dict()["input"]
-            #     ex_list.append(inp)
-
-
-            # if waste_ex.key in ex_list:
-            #     print("Skipping", waste_ex.key, "already exists for process", str(process))
-            #     skip_count += 1
-            # else:
-            process.new_exchange(input=waste_ex.key, amount=amount, unit=unit, type='biosphere').save()
+            process.new_exchange(input=waste_ex.key, amount=(-1*amount), unit=unit, type='biosphere').save()
             after = len(process.exchanges())
 
             if (after-before) == 1:
                 count += 1
                 progress_exc = '(' + str(count) + "/" + str(df.shape[0]) +')'
-                print(progress_db, NAME, progress_exc , '-->', code, location, name)
+                print(db.name, progress_db, NAME, progress_exc, '-->', code, location, ex_location, name, ex_name)
 
         # log file entry
             end = datetime.now()
             duration = (end - start)
-        log_entry = (NAME,"additions", count, "skipped", skip_count, "duration:", str(duration))
+        log_entry = (db_name, NAME,"additions", count, "duration:", str(duration))
         print(log_entry)
         log_file = os.path.join(tmp, 'ExchangeEditor.log')
         with open(log_file, 'a+') as l:
-            l.write(str(log_entry) + "\n")
+            l.write(str(log_entry)+"\n")

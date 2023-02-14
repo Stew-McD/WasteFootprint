@@ -17,7 +17,7 @@ def dbWriteExcel(project_waste, db_name, db_waste_name):
     import os
     from openpyxl import Workbook
 
-    search_results_path = os.path.join(os.getcwd(), "WasteSearchResults", db_name)
+    search_results_path = os.path.join(os.getcwd(), "data/WasteSearchResults", db_name)
 
     xl_filename = os.path.join(search_results_path, "WasteSearchDatabase.xlsx")
 
@@ -31,12 +31,12 @@ def dbWriteExcel(project_waste, db_name, db_waste_name):
 
 
     count = 0
-    print("Writing custom database file:", db_waste_name,"-->", xl_filename)
+    print("\n\n*** Writing custom database file:", db_waste_name,"-->", xl_filename)
     for f in os.listdir(search_results_path):
         f_path = os.path.join(search_results_path, f)
         if os.path.isfile(f_path) and f_path.endswith('.csv'):
             count += 1
-            NAME = f.removesuffix(".csv").replace(" ","")
+            NAME = f.replace(".csv",'').replace(" ","")
             CODE = NAME # maybe change this sometime
             if "kilogram" in NAME: UNIT = "kilogram"
             if "cubicmeter" in NAME: UNIT = "cubic meter"
@@ -55,7 +55,7 @@ def dbWriteExcel(project_waste, db_name, db_waste_name):
                 row = [key , str(value)]
                 xl_db.append(row)
 
-        xl_db.append([""]) # BW2 ExcelImport requires an empty row between each activity
+            xl_db.append([""]) # BW2 ExcelImport requires an empty row between each activity
 
     xl.save(xl_filename)
     print("Added", count, "entries to an xlsx for the custom waste db:", db_waste_name)

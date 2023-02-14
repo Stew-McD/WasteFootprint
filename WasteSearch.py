@@ -14,101 +14,75 @@ based on the work of LL
 
 #%%% Define waste search function
 
-def WasteSearch(query, db_name):
-
+def WasteSearch(queries):
     import os
     import pandas as pd
-    from datetime import datetime
 
-        # for readability
-    NAME_BASE = query["name"]
-    AND = query["keywords_AND"]
-    OR = query["keywords_OR"]
-    NOT = query["keywords_NOT"]
-
-    print("\n\n*** Running WasteSearch for:", NAME_BASE, "AND:", AND, "OR:", OR, "NOT:", NOT)
-        # make new folder to store results
-    search_results_path = os.path.join(os.getcwd(), 'WasteSearchResults', db_name)
+    db_name = queries[0]["db_name"]
+    search_results_path = os.path.join(os.getcwd(), 'data/WasteSearchResults', db_name)
     if not os.path.exists(search_results_path): os.makedirs(search_results_path)
 
+            # load exchanges into df from the DBexplode pickle file
+    tmp = os.path.join(os.getcwd(),"data/tmp")
 
-        # repeat each search for kg and m3
-    units = ["kilogram","cubic meter"]
-    for UNIT in units:
+
+    pickle_path = os.path.join(tmp, db_name+"_exploded.pickle")
+    print("*** Loading pickle to dataframe...")
+    df = pd.read_pickle(pickle_path)
+    print("*** Searching for waste exchanges...")
+
+    def search(query):
+    # for readability
+        db_name = query["db_name"]
+        NAME_BASE = query["name"]
+        UNIT = query["unit"]
         NAME = NAME_BASE + "_" + UNIT
         CODE = NAME.replace(" ", "")
-        query.update({"name" : NAME})
         query.update({"code" : NAME})
-        query.update({'unit' : UNIT})
+        AND = query["AND"]
+        OR = query["OR"]
+        NOT = query["NOT"]
+
+        df_results = df[
+                        (df["ex_name"].apply(lambda x: True if all(i in x for i in AND) else False))
+                        & (df["ex_unit"] == UNIT)
+                        & (df['ex_amount'] < 0)
+                        & (df["ex_amount"] != -1)
+                        ]
+
+        if OR != None:
+            df_results = df_results[(df_results["ex_name"].apply(lambda x: True if any(i in x for i in OR) else False))]
+
+        if NOT != None:
+            df_results = df_results[(df_results["ex_name"].apply(lambda x: False if any(i in x for i in NOT) else True))]
+
+                # html file for each query
 
 
-            # time, etc
-        start = datetime.now()
-        time = start.strftime("%y%m%d-%H%M")
-
-            # csv file for each query
-        waste_file_name = NAME.replace(" ", "") + ".csv"
+                 # csv file for each query
+        #df.set_index('code', inplace=True)
+        waste_file_name = NAME.replace(" ", "")
         waste_file = os.path.join(search_results_path, waste_file_name)
 
-
-            # load exchanges into df from the DBexplode pickle file
-        tmp = os.path.join(os.getcwd(),"tmp", db_name)
-        for f in os.listdir(tmp):
-            if "exploded.pickle" in f :
-                pickle_path = os.path.join(tmp , f)
-                db_name = f.split("_")[0]
-        df = pd.read_pickle(pickle_path)
-
-            # iterate through each exchange in the exploded df of EcoInvent
-        count = 0
-        for i in range(0, df.shape[0]):
-
-            rowSeries = df.iloc[i, 1]     # get row contents as series using iloc{]
-            rowSeries['process code']= df.iloc[i,0]     # and index position of row
-
-                # to increase readability
-            ex_name = str(rowSeries['name'])
-            ex_unit = str(rowSeries['unit'])
-            ex_amount = str(rowSeries['amount'])
-            ex_code = str(rowSeries['process code'])
-            ex_loc = str(rowSeries['location'])
-
-                # test the exchanges against the search parameters
-            if (
-                all(x in ex_name for x in AND)
-                and any(x in ex_name for x in OR)
-                and all(x in ex_unit for x in UNIT)
-                and '-' in ex_amount
-                and ex_amount != '-1.0'
-                and not any(x in ex_name for x in NOT)
-                ):
-
-                    # write to csv file
-                count+=1
-                x = (ex_code + ';' + ex_name + ';' + ex_loc + ';' + ex_amount + ';' + ex_unit + ";" + db_name)
-                print(count, ex_name,":", ex_loc, ":" "%.3g" % float(ex_amount), ex_unit)
-                with open(waste_file, 'a+') as f:
-                    f.write(x + '\n')
-
-
-                # writes a log file about the search
-            end = datetime.now()
-            search_time = (end - start)
+        if df_results.shape[0] != 0:
+            df_results.to_csv(waste_file+".csv", sep=";", )
+            df_results.to_html(waste_file+".html")
 
         log_entry = (
-                time +
-                " SEARCH COMPLETED. "
+                " DB="+ query["db_name"] +
+                " RESULTS="+str(df_results.shape[0]) +
                 " NAME: " + query["name"] +
-                ", Search parameters: AND=" + str(query["keywords_AND"]) +
-                " OR=" + str(query["keywords_OR"]) +
-                " NOT="+str(query["keywords_NOT"]) +
+                ", Search parameters: AND=" + str(query["AND"]) +
+                " OR=" + str(query["OR"]) +
+                " NOT="+str(query["NOT"]) +
                 " UNIT=" +str(query['unit']) +
-                " CODE=" +str(CODE) +
-                " RESULTS="+str(count) +
-                " SEARCH TIME="+str(search_time)
+                " CODE=" +str(CODE)
                 )
 
-        print("\n"+str(log_entry)+"\n")
+        print("\n"+str(log_entry))
         log_file = os.path.join(tmp, 'WasteSearch.log')
         with open(log_file, 'a+') as l:
-            l.write(str(log_entry) + "\n")
+            l.write(str(log_entry)+"\n")
+
+    for query in queries:
+        search(query)
