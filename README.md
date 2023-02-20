@@ -6,7 +6,7 @@
 * **main.py** :  
 from here you can run the entire package and also modify the search parameters.  
 
-#### Sub-scripts and their functions
+#### Sub-scripts
 
 1. **dbExplode() in  dbExplode.py** :  
 uses wurst to open up the ecoinvent database, explode to a list of all exchanges, and save in a DataFrame as a .pickle binary file. The default is that the database is called "cutoff38" in the project "default".  This function will copy 'default' to a new project called 'WasteFootprint'. If 'WasteFootprint'  exists, it will be deleted and re-made each time. 
