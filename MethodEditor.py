@@ -10,34 +10,8 @@ Created on Sat Nov 19 12:21:04 2022
 @author: SC-McD
 based of the work of LL
 """
-# project_waste = "WasteFootprint_cutoff39"
-# db_waste_name = "db_waste_cutoff39"
 
-# DeleteMethods(project_waste)
-# AddMethods(project_waste, db_waste_name)
-
-
-if __name__ == '__main__':
-
-    versions = ["35" ,"38", "39"]
-    models = ["cutoff", 'con', 'apos']
-    dbases = ["{}{}".format(x,y) for x in models for y in versions]
-
-    args_list = []
-    for dbase in dbases:
-        args = {'project_base':"default_"+dbase,
-                'project_waste':"WasteFootprint_"+dbase,
-                'db_name':dbase,
-                'db_waste_name':"db_waste_"+dbase}
-        args_list.append(args)
-
-    for args in args_list:
-
-        try:
-            AddMethods(args)
-        except:
-            print("Skipping:"+args["db_name"])
-
+# add methods to the waste footprint project
 def AddMethods(project_waste, db_waste_name):
     print("\n\n*** Adding new methods\n")
     import bw2data as bd
@@ -55,9 +29,8 @@ def AddMethods(project_waste, db_waste_name):
         m_name = m_name.replace("kilogram", "solid")
         m_name = m_name.replace("cubicmeter", "liquid")
 
+# negative values for waste (to correct the fact that is considered a 'service' in LCA)
         ch_factor = -1.0
-        # if unit == "cubic meter":  #
-        #     ch_factor = -1
 
         name_combined = "_".join((m_name.split("_")[0:2])) + "_combined"
         method_key = ('Waste Footprint', name_combined, m_name)
@@ -72,7 +45,7 @@ def AddMethods(project_waste, db_waste_name):
     methods_added = len(bd.methods) - method_count
     print("\n*** Added", methods_added, " new methods")
 
-#DeleteMethods(project_waste)
+#If you want to delete methods, run this:
 def DeleteMethods(project_waste) :
 
     import bw2data as bd
@@ -89,7 +62,7 @@ def DeleteMethods(project_waste) :
     print("\n# of methods :", finish)
     print("\n** Deleted {} methods".format(str(start - finish)))
 
-
+# If you want to check if it worked, run this:
 def CheckMethods(project_waste):
     import bw2data as bd
     bd.projects.set_current(project_waste)
