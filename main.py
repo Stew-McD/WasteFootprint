@@ -10,7 +10,7 @@
 DEFAULTS:
 
 EI database is of form 'cutoff38' or 'con39'
-* versions = ["35", "38", "39"]
+* versions = ["35", "38", "39", "391]
 * models = ["cutoff", 'con', 'apos']
 
 The script will copy the project "default"+<db_name> to project "WasteFootprint"+<db_name>
@@ -154,8 +154,8 @@ def WasteFootprint(args):
 # %% 2. RUN MAIN FUNCTION
 if __name__ == '__main__':
 
-    versions = ["35", "38", "39"]
-    models = ["cutoff", 'con', 'apos']
+    versions = ["35"]#, "38", "39"]
+    models = ["cutoff"]#, 'con', 'apos']
     dbases = ["{}{}".format(x, y) for x in models for y in versions]
 
     args_list = []
@@ -170,4 +170,4 @@ if __name__ == '__main__':
         try:
             WasteFootprint(args)
         except:
-            print("Skipping:"+args["db_name"])
+            print("Something went terribly wrong :( .....skipping:"+args["db_name"])

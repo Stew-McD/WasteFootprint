@@ -70,7 +70,7 @@ def WasteSearch(queries):
 
         if df_results.shape[0] != 0:
             df_results.to_csv(waste_file+".csv", sep=";", )
-            df_results.to_html(waste_file+".html")
+            #df_results.to_html(waste_file+".html")
 
     # writes a log entry for each query
         log_entry = (
