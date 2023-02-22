@@ -14,8 +14,8 @@ EI database is of form 'cutoff38' or 'con39'
 * models = ["cutoff", 'con', 'apos']
 
 The script will copy the project "default"+<db_name> to project "WasteFootprint"+<db_name>
-* 'project_base': "default_"+dbase,
-* 'project_waste': "WasteFootprint_"+dbase,
+* 'project_base': "default_"+<dbase>,
+* 'project_waste': "WasteFootprint_"+<dbase>,
 
 
 Created on Sat Nov 19 11:24:06 2022
@@ -149,13 +149,20 @@ def WasteFootprint(args):
     print("\n*** Finished running WasteFootprint.\n\tDuration: " +
           str(duration).split(".")[0])
     print('*** Woah woah wee waa, great success!!')
+    
+    with open("log.txt", "a+") as l:
+        l.write(str(duration).split(".")[0], db_name)
 
 
 # %% 2. RUN MAIN FUNCTION
 if __name__ == '__main__':
 
-    versions = ["35"]#, "38", "39"]
-    models = ["cutoff"]#, 'con', 'apos']
+# if you have a series of projects with a naming convention the same as this one, it is easy to run them all in a loop
+# if not, you can edit the arguments in the list below to fit your naming convention or just run the function for a single project
+    
+    # simply comment out this section, edit the second last line of this script with the names of your project and database
+    versions = ["35", "38", "39","391"]
+    models = ["cutoff", 'con', 'apos']
     dbases = ["{}{}".format(x, y) for x in models for y in versions]
 
     args_list = []
@@ -165,9 +172,16 @@ if __name__ == '__main__':
                 'db_name': dbase,
                 'db_waste_name': "db_waste_"+dbase}
         args_list.append(args)
+    
+        for args in args_list:
+            try:
+                WasteFootprint(args)
+            except:
+                print("Something went terribly wrong :( .....skipping:"+args["db_name"])
+            
+    # until here. 
+    # now edit the args to suit your naming conventions and and uncomment the two lines below to run the function for a single project and database
 
-    for args in args_list:
-        try:
-            WasteFootprint(args)
-        except:
-            print("Something went terribly wrong :( .....skipping:"+args["db_name"])
+    # args = {'project_base': "default_cutoff35", 'project_waste': "WasteFootprint_cutoff35", 'db_name': "cutoff35", 'db_waste_name': "db_waste_cutoff35"}
+    # WasteFootprint(args)
+
