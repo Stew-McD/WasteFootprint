@@ -1,0 +1,60 @@
+ DB=cutoff39 RESULTS=2 NAME: waste_digestion, Search parameters: AND=['waste', 'digestion'] OR=None NOT=None UNIT=kilogram CODE=waste_digestion_kilogram
+ DB=cutoff39 RESULTS=1431 NAME: waste_hazardous, Search parameters: AND=['waste'] OR=['hazardous', 'radioactive'] NOT=None UNIT=kilogram CODE=waste_hazardous_kilogram
+ DB=cutoff39 RESULTS=24977 NAME: waste_non_hazardous, Search parameters: AND=['waste'] OR=None NOT=['hazardous', 'radioactive'] UNIT=kilogram CODE=waste_non_hazardous_kilogram
+ DB=cutoff39 RESULTS=1443 NAME: waste_incineration, Search parameters: AND=['waste', 'incineration'] OR=None NOT=None UNIT=kilogram CODE=waste_incineration_kilogram
+ DB=cutoff39 RESULTS=516 NAME: waste_open_burning, Search parameters: AND=['waste', 'burning'] OR=None NOT=None UNIT=kilogram CODE=waste_open_burning_kilogram
+ DB=cutoff39 RESULTS=42 NAME: waste_recycling, Search parameters: AND=['waste', 'recycling'] OR=None NOT=None UNIT=kilogram CODE=waste_recycling_kilogram
+ DB=cutoff39 RESULTS=1251 NAME: waste_landfill, Search parameters: AND=['waste'] OR=['landfill', 'dumped', 'deposit'] NOT=None UNIT=kilogram CODE=waste_landfill_kilogram
+ DB=cutoff39 RESULTS=8 NAME: waste_composting, Search parameters: AND=['waste', 'composting'] OR=None NOT=None UNIT=kilogram CODE=waste_composting_kilogram
+ DB=cutoff39 RESULTS=26408 NAME: waste_total, Search parameters: AND=['waste'] OR=None NOT=None UNIT=kilogram CODE=waste_total_kilogram
+ DB=cutoff39 RESULTS=0 NAME: waste_radioactive, Search parameters: AND=['waste', 'radioactive'] OR=None NOT=None UNIT=kilogram CODE=waste_radioactive_kilogram
+ DB=cutoff39 RESULTS=2 NAME: waste_digestion, Search parameters: AND=['waste', 'digestion'] OR=None NOT=None UNIT=cubic meter CODE=waste_digestion_cubicmeter
+ DB=cutoff39 RESULTS=277 NAME: waste_hazardous, Search parameters: AND=['waste'] OR=['hazardous', 'radioactive'] NOT=None UNIT=cubic meter CODE=waste_hazardous_cubicmeter
+ DB=cutoff39 RESULTS=3421 NAME: waste_non_hazardous, Search parameters: AND=['waste'] OR=None NOT=['hazardous', 'radioactive'] UNIT=cubic meter CODE=waste_non_hazardous_cubicmeter
+ DB=cutoff39 RESULTS=1 NAME: waste_incineration, Search parameters: AND=['waste', 'incineration'] OR=None NOT=None UNIT=cubic meter CODE=waste_incineration_cubicmeter
+ DB=cutoff39 RESULTS=0 NAME: waste_open_burning, Search parameters: AND=['waste', 'burning'] OR=None NOT=None UNIT=cubic meter CODE=waste_open_burning_cubicmeter
+ DB=cutoff39 RESULTS=0 NAME: waste_recycling, Search parameters: AND=['waste', 'recycling'] OR=None NOT=None UNIT=cubic meter CODE=waste_recycling_cubicmeter
+ DB=cutoff39 RESULTS=1 NAME: waste_landfill, Search parameters: AND=['waste'] OR=['landfill', 'dumped', 'deposit'] NOT=None UNIT=cubic meter CODE=waste_landfill_cubicmeter
+ DB=cutoff39 RESULTS=0 NAME: waste_composting, Search parameters: AND=['waste', 'composting'] OR=None NOT=None UNIT=cubic meter CODE=waste_composting_cubicmeter
+ DB=cutoff39 RESULTS=3698 NAME: waste_total, Search parameters: AND=['waste'] OR=None NOT=None UNIT=cubic meter CODE=waste_total_cubicmeter
+ DB=cutoff39 RESULTS=277 NAME: waste_radioactive, Search parameters: AND=['waste', 'radioactive'] OR=None NOT=None UNIT=cubic meter CODE=waste_radioactive_cubicmeter
+ DB=cutoff391 RESULTS=2 NAME: waste_digestion, Search parameters: AND=['waste', 'digestion'] OR=None NOT=None UNIT=kilogram CODE=waste_digestion_kilogram
+ DB=cutoff391 RESULTS=1431 NAME: waste_hazardous, Search parameters: AND=['waste'] OR=['hazardous', 'radioactive'] NOT=None UNIT=kilogram CODE=waste_hazardous_kilogram
+ DB=cutoff391 RESULTS=24961 NAME: waste_non_hazardous, Search parameters: AND=['waste'] OR=None NOT=['hazardous', 'radioactive'] UNIT=kilogram CODE=waste_non_hazardous_kilogram
+ DB=cutoff391 RESULTS=1443 NAME: waste_incineration, Search parameters: AND=['waste', 'incineration'] OR=None NOT=None UNIT=kilogram CODE=waste_incineration_kilogram
+ DB=cutoff391 RESULTS=516 NAME: waste_open_burning, Search parameters: AND=['waste', 'burning'] OR=None NOT=None UNIT=kilogram CODE=waste_open_burning_kilogram
+ DB=cutoff391 RESULTS=42 NAME: waste_recycling, Search parameters: AND=['waste', 'recycling'] OR=None NOT=None UNIT=kilogram CODE=waste_recycling_kilogram
+ DB=cutoff391 RESULTS=1250 NAME: waste_landfill, Search parameters: AND=['waste'] OR=['landfill', 'dumped', 'deposit'] NOT=None UNIT=kilogram CODE=waste_landfill_kilogram
+ DB=cutoff391 RESULTS=8 NAME: waste_composting, Search parameters: AND=['waste', 'composting'] OR=None NOT=None UNIT=kilogram CODE=waste_composting_kilogram
+ DB=cutoff391 RESULTS=26392 NAME: waste_total, Search parameters: AND=['waste'] OR=None NOT=None UNIT=kilogram CODE=waste_total_kilogram
+ DB=cutoff391 RESULTS=0 NAME: waste_radioactive, Search parameters: AND=['waste', 'radioactive'] OR=None NOT=None UNIT=kilogram CODE=waste_radioactive_kilogram
+ DB=cutoff391 RESULTS=2 NAME: waste_digestion, Search parameters: AND=['waste', 'digestion'] OR=None NOT=None UNIT=cubic meter CODE=waste_digestion_cubicmeter
+ DB=cutoff391 RESULTS=277 NAME: waste_hazardous, Search parameters: AND=['waste'] OR=['hazardous', 'radioactive'] NOT=None UNIT=cubic meter CODE=waste_hazardous_cubicmeter
+ DB=cutoff391 RESULTS=3421 NAME: waste_non_hazardous, Search parameters: AND=['waste'] OR=None NOT=['hazardous', 'radioactive'] UNIT=cubic meter CODE=waste_non_hazardous_cubicmeter
+ DB=cutoff391 RESULTS=1 NAME: waste_incineration, Search parameters: AND=['waste', 'incineration'] OR=None NOT=None UNIT=cubic meter CODE=waste_incineration_cubicmeter
+ DB=cutoff391 RESULTS=0 NAME: waste_open_burning, Search parameters: AND=['waste', 'burning'] OR=None NOT=None UNIT=cubic meter CODE=waste_open_burning_cubicmeter
+ DB=cutoff391 RESULTS=0 NAME: waste_recycling, Search parameters: AND=['waste', 'recycling'] OR=None NOT=None UNIT=cubic meter CODE=waste_recycling_cubicmeter
+ DB=cutoff391 RESULTS=1 NAME: waste_landfill, Search parameters: AND=['waste'] OR=['landfill', 'dumped', 'deposit'] NOT=None UNIT=cubic meter CODE=waste_landfill_cubicmeter
+ DB=cutoff391 RESULTS=0 NAME: waste_composting, Search parameters: AND=['waste', 'composting'] OR=None NOT=None UNIT=cubic meter CODE=waste_composting_cubicmeter
+ DB=cutoff391 RESULTS=3698 NAME: waste_total, Search parameters: AND=['waste'] OR=None NOT=None UNIT=cubic meter CODE=waste_total_cubicmeter
+ DB=cutoff391 RESULTS=277 NAME: waste_radioactive, Search parameters: AND=['waste', 'radioactive'] OR=None NOT=None UNIT=cubic meter CODE=waste_radioactive_cubicmeter
+ DB=cutoff391 RESULTS=2 NAME: waste_digestion, Search parameters: AND=['waste', 'digestion'] OR=None NOT=None UNIT=kilogram CODE=waste_digestion_kilogram
+ DB=cutoff391 RESULTS=1431 NAME: waste_hazardous, Search parameters: AND=['waste'] OR=['hazardous', 'radioactive'] NOT=None UNIT=kilogram CODE=waste_hazardous_kilogram
+ DB=cutoff391 RESULTS=24961 NAME: waste_non_hazardous, Search parameters: AND=['waste'] OR=None NOT=['hazardous', 'radioactive'] UNIT=kilogram CODE=waste_non_hazardous_kilogram
+ DB=cutoff391 RESULTS=1443 NAME: waste_incineration, Search parameters: AND=['waste', 'incineration'] OR=None NOT=None UNIT=kilogram CODE=waste_incineration_kilogram
+ DB=cutoff391 RESULTS=516 NAME: waste_open_burning, Search parameters: AND=['waste', 'burning'] OR=None NOT=None UNIT=kilogram CODE=waste_open_burning_kilogram
+ DB=cutoff391 RESULTS=42 NAME: waste_recycling, Search parameters: AND=['waste', 'recycling'] OR=None NOT=None UNIT=kilogram CODE=waste_recycling_kilogram
+ DB=cutoff391 RESULTS=1250 NAME: waste_landfill, Search parameters: AND=['waste'] OR=['landfill', 'dumped', 'deposit'] NOT=None UNIT=kilogram CODE=waste_landfill_kilogram
+ DB=cutoff391 RESULTS=8 NAME: waste_composting, Search parameters: AND=['waste', 'composting'] OR=None NOT=None UNIT=kilogram CODE=waste_composting_kilogram
+ DB=cutoff391 RESULTS=26392 NAME: waste_total, Search parameters: AND=['waste'] OR=None NOT=None UNIT=kilogram CODE=waste_total_kilogram
+ DB=cutoff391 RESULTS=0 NAME: waste_radioactive, Search parameters: AND=['waste', 'radioactive'] OR=None NOT=None UNIT=kilogram CODE=waste_radioactive_kilogram
+ DB=cutoff391 RESULTS=2 NAME: waste_digestion, Search parameters: AND=['waste', 'digestion'] OR=None NOT=None UNIT=cubic meter CODE=waste_digestion_cubicmeter
+ DB=cutoff391 RESULTS=277 NAME: waste_hazardous, Search parameters: AND=['waste'] OR=['hazardous', 'radioactive'] NOT=None UNIT=cubic meter CODE=waste_hazardous_cubicmeter
+ DB=cutoff391 RESULTS=3421 NAME: waste_non_hazardous, Search parameters: AND=['waste'] OR=None NOT=['hazardous', 'radioactive'] UNIT=cubic meter CODE=waste_non_hazardous_cubicmeter
+ DB=cutoff391 RESULTS=1 NAME: waste_incineration, Search parameters: AND=['waste', 'incineration'] OR=None NOT=None UNIT=cubic meter CODE=waste_incineration_cubicmeter
+ DB=cutoff391 RESULTS=0 NAME: waste_open_burning, Search parameters: AND=['waste', 'burning'] OR=None NOT=None UNIT=cubic meter CODE=waste_open_burning_cubicmeter
+ DB=cutoff391 RESULTS=0 NAME: waste_recycling, Search parameters: AND=['waste', 'recycling'] OR=None NOT=None UNIT=cubic meter CODE=waste_recycling_cubicmeter
+ DB=cutoff391 RESULTS=1 NAME: waste_landfill, Search parameters: AND=['waste'] OR=['landfill', 'dumped', 'deposit'] NOT=None UNIT=cubic meter CODE=waste_landfill_cubicmeter
+ DB=cutoff391 RESULTS=0 NAME: waste_composting, Search parameters: AND=['waste', 'composting'] OR=None NOT=None UNIT=cubic meter CODE=waste_composting_cubicmeter
+ DB=cutoff391 RESULTS=3698 NAME: waste_total, Search parameters: AND=['waste'] OR=None NOT=None UNIT=cubic meter CODE=waste_total_cubicmeter
+ DB=cutoff391 RESULTS=277 NAME: waste_radioactive, Search parameters: AND=['waste', 'radioactive'] OR=None NOT=None UNIT=cubic meter CODE=waste_radioactive_cubicmeter

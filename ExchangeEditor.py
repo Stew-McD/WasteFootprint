@@ -75,9 +75,9 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
     # add a log file entry
             end = datetime.now()
             duration = (end - start)
-        log_entry = (db_name, NAME, "additions",
+        log_entry = (end, db_name, NAME, "additions",
                      count, "duration:", str(duration))
         print(log_entry)
         log_file = os.path.join(tmp, 'ExchangeEditor.log')
-        with open(log_file, 'a+') as l:
+        with open(log_file, 'a') as l:
             l.write(str(log_entry)+"\n")

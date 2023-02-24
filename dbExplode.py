@@ -35,7 +35,7 @@ def dbExplode(project_base, project_waste, db_name):
           "\n\t wurst", w.__version__)
 
     if project_waste in bd.projects:
-        print("Waste project already exists:" + db_name)
+        print("Waste project already exists:" + project_waste)
         bd.projects.delete_project(project_waste, delete_dir=True)
 
     if project_waste not in bd.projects:

@@ -29,7 +29,7 @@ def AddMethods(project_waste, db_waste_name):
         m_name = m_name.replace("kilogram", "solid")
         m_name = m_name.replace("cubicmeter", "liquid")
 
-# negative values for waste (to correct the fact that is considered a 'service' in LCA)
+# negative values for waste (to correct the fact that waste is considered a 'service' in LCA)
         ch_factor = -1.0
 
         name_combined = "_".join((m_name.split("_")[0:2])) + "_combined"

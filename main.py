@@ -161,8 +161,8 @@ if __name__ == '__main__':
 # if not, you can edit the arguments in the list below to fit your naming convention or just run the function for a single project
     
     # simply comment out this section, edit the second last line of this script with the names of your project and database
-    versions = ["35", "38", "39","391"]
-    models = ["cutoff", 'con', 'apos']
+    versions = ["391"]#,"391"] # "35", "38", 
+    models = ["cutoff", 'apos']
     dbases = ["{}{}".format(x, y) for x in models for y in versions]
 
     args_list = []

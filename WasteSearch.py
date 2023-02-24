@@ -86,7 +86,7 @@ def WasteSearch(queries):
 
         print("\n"+str(log_entry))
         log_file = os.path.join(tmp, 'WasteSearch.log')
-        with open(log_file, 'a+') as l:
+        with open(log_file, 'a') as l:
             l.write(str(log_entry)+"\n")
 
     # calls the search function defined above for each query in the set of queries
