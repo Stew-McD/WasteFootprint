@@ -31,3 +31,4 @@
 ('cutoff391', 'waste_non_hazardous_kilogram', 'additions', 24961, 'duration:', '0:07:45.069398')
 ('cutoff391', 'waste_hazardous_cubicmeter', 'additions', 277, 'duration:', '0:00:05.406203')
 ('cutoff391', 'waste_incineration_kilogram', 'additions', 1443, 'duration:', '0:00:27.041337')
+(datetime.datetime(2023, 2, 24, 16, 36, 31, 230900), 'cutoff391', 'waste_digestion_cubicmeter', 'additions', 2, 'duration:', '0:00:00.044665')
