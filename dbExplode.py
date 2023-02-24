@@ -19,15 +19,16 @@ Created on Wed Nov 16 11:31:38 2022
 @author: SC-McD
 based on the work of LL
 """
+from datetime import datetime
+import pandas as pd
+import os
 
+import bw2data as bd
+import wurst as w
 
 def dbExplode(project_base, project_waste, db_name):
 
-    import pandas as pd
-    import os
 
-    import bw2data as bd
-    import wurst as w
 
     print("** dbExplode uses wurst to open a bw2 data base, \nexplodes the exchanges for each process, \nthen returns a pickle file with a DataFrame list of all activities **")
     print("\n * Using packages: ",
@@ -37,6 +38,7 @@ def dbExplode(project_base, project_waste, db_name):
     if project_waste in bd.projects:
         print("Waste project already exists:" + project_waste)
         bd.projects.delete_project(project_waste, delete_dir=True)
+        print("Waste project deleted:" + project_waste)
 
     if project_waste not in bd.projects:
         print("\n**Project {} will be copied to a new project: {}".format(project_base, project_waste))
@@ -82,9 +84,9 @@ def dbExplode(project_base, project_waste, db_name):
           "> was exploded and pickled.\n\n Rejoice!\n")
 
 # make log file
-    log_entry = (db.name + "," + bd.projects.current)
+    log_entry = (datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "," + db.name + "," + bd.projects.current)
     log_file = os.path.join(tmp, 'dbExplode.log')
-    with open(log_file, 'a+') as l:
+    with open(log_file, 'a') as l:
         l.write(str(log_entry)+"\n")
 
     return

@@ -150,8 +150,9 @@ def WasteFootprint(args):
           str(duration).split(".")[0])
     print('*** Woah woah wee waa, great success!!')
     
-    with open("log.txt", "a+") as l:
-        l.write(str(duration).split(".")[0], db_name)
+# write the details of the run to a log file
+    with open("data/tmp/main_log.txt", "a") as l:
+        l.write(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\t Duration:" + str(duration).split(".")[0], db_name)
 
 
 # %% 2. RUN MAIN FUNCTION
@@ -161,8 +162,8 @@ if __name__ == '__main__':
 # if not, you can edit the arguments in the list below to fit your naming convention or just run the function for a single project
     
     # simply comment out this section, edit the second last line of this script with the names of your project and database
-    versions = ["391"]#,"391"] # "35", "38", 
-    models = ["cutoff", 'apos']
+    versions = ["391", "39", "35", "38"] 
+    models = ["cutoff", 'apos', 'con']
     dbases = ["{}{}".format(x, y) for x in models for y in versions]
 
     args_list = []
@@ -176,7 +177,8 @@ if __name__ == '__main__':
         for args in args_list:
             try:
                 WasteFootprint(args)
-            except:
+            except Exception as e:
+                print(e)
                 print("Something went terribly wrong :( .....skipping:"+args["db_name"])
             
     # until here. 
