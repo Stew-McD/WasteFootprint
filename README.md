@@ -50,6 +50,7 @@ virtualenv --python C:\Path\To\Python\python.exe venv
 #### Download and run
 ##### Via GitHub
 gh repo clone https://github.com/SC-McD/WasteFootprint
+# check first that you have the database and project names in the correct format
 python3 main.py
 
 ##### Manual download

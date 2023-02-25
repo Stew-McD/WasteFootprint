@@ -62,7 +62,7 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
     
     # add a new exchange to the process
             process.new_exchange(
-                input=waste_ex.key, amount=(-1*amount), unit=unit, type='biosphere').save()
+                input=waste_ex.key, amount=(amount), unit=unit, type='biosphere').save()
             after = len(process.exchanges())
 
     # check if the exchange was added and print progress
