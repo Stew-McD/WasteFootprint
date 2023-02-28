@@ -30,7 +30,7 @@ Takes each entry in the custom biosphere database 'waste_db' and creates a new m
 
 ## Program flowchart
 
-![Alt](https://github.com/SC-McD/WasteFootprint/blob/main/WasteFootprint_Flowchart.drawio.svg)
+![Alt](https://github.com/SC-McD/WasteFootprint/blob/main/Flowchart_WasteFootprint.png)
 
 
 ## Install and run
