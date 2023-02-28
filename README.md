@@ -2,11 +2,11 @@
 ## a flexible tool to track waste flows in LCA  
 (also any other kind of flow)
 ## Contents
-* [Scripts](##Scripts)
-* [Program flowchart](##Program-flowchart)
-* [Install and run](##Install-and-run)
-* [Requirements](##Requirements)
-* [Usage](##Usage)
+* [Scripts](## Scripts)
+* [Program flowchart](## Program-flowchart)
+* [Install and run](## Install-and-run)
+* [Requirements](## Requirements)
+* [Usage](## Usage)
 
 ## Scripts
 #### Central script
