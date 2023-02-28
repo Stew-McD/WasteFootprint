@@ -8,8 +8,8 @@
 * [Requirements](##Requirements)
 * [Usage](##Usage)
 
-##Scripts
-####Central script
+## Scripts
+#### Central script
 
 * **main.py** :
 from here you can run the entire package and also modify the search parameters and the names of the projects/databases.
