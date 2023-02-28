@@ -1,9 +1,5 @@
 # WasteFootprint: a flexible tool to track waste flows in LCA
 
-## Program flowchart
-
-![Alt](https://github.com/SC-McD/WasteFootprint/blob/main/WasteFootprint_Flowchart.drawio.svg)
-
 
 ## Contents
 
@@ -31,6 +27,11 @@ For every activity found by WasteSearch(), this function will add the relevant e
 
 6. **AddMethods() in MethodEditor.py** :
 Takes each entry in the custom biosphere database 'waste_db' and creates a new method from it. Eg., ('Waste Footprint', 'Total Waste Footprint', waste_hazardous_cubicmeter)
+
+## Program flowchart
+
+![Alt](https://github.com/SC-McD/WasteFootprint/blob/main/WasteFootprint_Flowchart.drawio.svg)
+
 
 ## Install and run
 1. Clone the repo or download the .py files
