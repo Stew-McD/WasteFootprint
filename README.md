@@ -1,4 +1,10 @@
 # WasteFootprint: a flexible tool to track waste flows in LCA
+
+## Program flowchart
+
+![Alt](images/someimage.png)
+
+
 ## Contents
 
 #### Central script
