@@ -1,4 +1,6 @@
-# WasteFootprint: a flexible tool to track waste flows in LCA
+# WasteFootprint:  
+a flexible tool to track waste flows in LCA  
+(also any other kind of flow)
 ## Contents
 * [Scripts](##Scripts)
 * [Program flowchart](##Program-flowchart)
