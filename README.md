@@ -2,7 +2,7 @@
 
 ## Program flowchart
 
-![Alt](images/someimage.png)
+![Alt](https://github.com/SC-McD/WasteFootprint/blob/main/WasteFootprint_Flowchart.drawio.svg)
 
 
 ## Contents
