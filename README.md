@@ -1,8 +1,12 @@
 # WasteFootprint: a flexible tool to track waste flows in LCA
-
-
 ## Contents
+[Scripts](##Scripts)
+[Program flowchart](##Program-flowchart)
+[Install and run](##Install-and-run)
+[Requirements](##Requirements)
+[Usage](##Usage)
 
+## Scripts
 #### Central script
 
 * **main.py** :
