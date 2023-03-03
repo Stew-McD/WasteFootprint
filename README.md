@@ -51,7 +51,7 @@ Takes each entry in the custom biosphere database 'waste_db' and creates a new m
 ##### In linux (and Mac, I guess)
 pip install virtualenv
 python3 -m venv ~/venvs/WasteFootprint
-pip install brightway2 wurst numpy=1.23.5 # newest version of numpy gives errors
+pip install brightway2 wurst
 source ~/venvs/WasteFootprint/bin/activate
 
 ##### In windows (I think... not tested)
@@ -63,7 +63,7 @@ virtualenv --python C:\Path\To\Python\python.exe venv
 #### Download and run
 ##### Via GitHub
 gh repo clone https://github.com/SC-McD/WasteFootprint
-# check first that you have the database and project names in the correct format
+**check first that you have the database and project names in the correct format**
 python3 main.py
 
 ##### Manual download
