@@ -12,7 +12,7 @@ based on the work of LL
 """
 
 def ExchangeEditor(project_waste, db_name, db_waste_name):
-
+    from tqdm import tqdm
     import os
     import pandas as pd
     import bw2data as bd
@@ -40,15 +40,18 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
 
  # Appending all processes with waste exchanges with custom biosphere waste exchanges 
  # in same amount and unit as technosphere waste exchange
+    print("Appending waste exchanges as pseudo environmental flows in " + db_waste_name + " for the following categories:\n")
     countNAME = 0
+
     for NAME, df in file_dict.items():
         countNAME += 1
         start = datetime.now()
         progress_db = str(countNAME) + "/" + str(len(file_dict.items()))
         count = 0
 
+
     # get data for each exchange in the waste search results
-        for exc in df.to_dict('records'):
+        for exc in tqdm(df.to_dict('records'), desc=NAME + ": "):
             code = exc["code"]  
             name = exc["name"]
             location = exc["location"]
@@ -65,16 +68,15 @@ def ExchangeEditor(project_waste, db_name, db_waste_name):
                 input=waste_ex.key, amount=(amount), unit=unit, type='biosphere').save()
             after = len(process.exchanges())
 
-    # check if the exchange was added and print progress
+    # count the added exchanges
             if (after-before) == 1:
                 count += 1
-                progress_exc = '(' + str(count) + "/" + str(df.shape[0]) + ')'
-                print(db.name, progress_db, NAME, progress_exc, '-->',
-                      code, location, ex_location, name, ex_name)
+
 
     # add a log file entry
-            end = datetime.now()
-            duration = (end - start)
+        end = datetime.now()
+        duration = (end - start)
+
         log_entry = (end.strftime("%m/%d/%Y, %H:%M:%S")," ", db_name, NAME, "additions",
                      count, "duration:", str(duration))
         print(log_entry)
