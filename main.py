@@ -73,7 +73,7 @@ def WasteFootprint(args):
 # set the names of the waste flow categories you want to search for
     names = ['digestion', 'hazardous', 'non_hazardous', "incineration",
              "open_burning", "recycling", "landfill", "composting", "total", 'radioactive']
-
+# ! QUERY FORMAT
 # setup the dictionary of search terms for each waste flow category
     queries_kg = []
     for name in names:
@@ -162,8 +162,8 @@ if __name__ == '__main__':
 # if not, you can edit the arguments in the list below to fit your naming convention or just run the function for a single project
     
     # simply comment out this section, edit the second last line of this script with the names of your project and database
-    versions = ["391"] #"35", "38","39", 
-    models = ["cutoff", 'apos','con']
+    versions = ["39"] #"35", "38","39", 
+    models = ["cutoff"] #, 'apos','con']
     dbases = ["{}{}".format(x, y) for x in models for y in versions]
 
     args_list = []
