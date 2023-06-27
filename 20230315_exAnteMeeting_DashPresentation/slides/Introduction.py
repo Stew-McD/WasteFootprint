@@ -27,7 +27,7 @@ content = html.Div(
                     html.Div(
                         style=dict(textAlign='left', fontSize=90, paddingBottom=80, marginTop=60),
                         children=[
-                            html.B("Waste footprints in LCA"),
+                            html.B("Wh"),
                             html.H3("      Liz and Stewart, with Felipe and Stefano")
                             ]),
                     html.Div(

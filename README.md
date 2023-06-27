@@ -36,7 +36,7 @@ Takes each entry in the custom biosphere database 'waste_db' and creates a new m
 
 ## Program flowchart
 
-![Alt](https://github.com/SC-McD/WasteFootprint/blob/main/Flowchart_WasteFootprint.drawio.png)
+![Alt](Flowchart_WasteFootprint.png)
 
 
 ## Install and run
@@ -83,3 +83,7 @@ wurst:  https://github.com/polca/wurst
 * You can change the defaults and it will (probably) still work, otherwise: re-import or copy to a new project: eg. put ei38 into "default_cutoff38" with the name 'cutoff38'
 * The scripts will make a copy of the default project and run everything in a project called "WasteFootprint"
 * It took about 16 minutes to run for me, for each database
+
+
+## TO DO
+* add user prompts (maybe with the *prompt* module)
